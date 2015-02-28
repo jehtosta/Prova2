@@ -20,6 +20,7 @@ public class BaseController {
 		
 		Post post = new Post();
 		post.setTitle("Novo Post");
+		
 	    
 		model.addAttribute("post", post);
 		 
