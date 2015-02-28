@@ -12,7 +12,7 @@ import com.springproject.app.entities.Usuario;
 @RequestMapping("/usuario")
 public class cadastro {
 
-	@RequestMapping("/")
+	@RequestMapping("/usuario")
 	public String formulario() {
  
 		return "cadastroUsuario";
