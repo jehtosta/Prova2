@@ -1,0 +1,2484 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/opt/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'grunt-contrib-internal' ]
+2 info using npm@2.1.14
+3 info using node@v0.8.16
+4 warn package.json casaoeste@0.1.0 No description
+5 warn package.json casaoeste@0.1.0 No repository field.
+6 warn package.json casaoeste@0.1.0 No README data
+7 warn package.json dateformat@1.0.2-1.2.3 No repository field.
+8 warn package.json eventemitter2@0.4.11 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+9 silly cache add args [ 'grunt-contrib-internal', null ]
+10 verbose cache add spec grunt-contrib-internal
+11 silly cache add parsed spec { raw: 'grunt-contrib-internal',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'grunt-contrib-internal',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: '*',
+11 silly cache add   type: 'range' }
+12 verbose addNamed grunt-contrib-internal@*
+13 silly addNamed semver.valid null
+14 silly addNamed semver.validRange *
+15 silly addNameRange { name: 'grunt-contrib-internal', range: '*', hasData: false }
+16 silly mapToRegistry name grunt-contrib-internal
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-internal
+20 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-internal not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/grunt-contrib-internal
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 15:12:24
+24 verbose request id 98a04baabcb514cd
+25 verbose etag "EO3R5FSJNZZPW4LL7GVDOMF2Y"
+26 http request GET https://registry.npmjs.org/grunt-contrib-internal
+27 http 304 https://registry.npmjs.org/grunt-contrib-internal
+28 silly get cb [ 304,
+28 silly get   { date: 'Wed, 24 Dec 2014 17:12:24 GMT',
+28 silly get     server: 'Apache',
+28 silly get     via: '1.1 varnish',
+28 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:24 GMT',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     etag: '"EO3R5FSJNZZPW4LL7GVDOMF2Y"',
+28 silly get     age: '25',
+28 silly get     'x-served-by': 'cache-atl6223-ATL',
+28 silly get     'x-cache': 'HIT',
+28 silly get     'x-cache-hits': '1',
+28 silly get     'x-timer': 'S1419441144.783016,VS0,VE0',
+28 silly get     vary: 'Accept',
+28 silly get     'content-length': '0',
+28 silly get     'keep-alive': 'timeout=10, max=50',
+28 silly get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/grunt-contrib-internal from cache
+30 silly addNameRange number 2 { name: 'grunt-contrib-internal', range: '*', hasData: true }
+31 silly addNameRange versions [ 'grunt-contrib-internal',
+31 silly addNameRange   [ '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.4.1',
+31 silly addNameRange     '0.4.2',
+31 silly addNameRange     '0.4.3',
+31 silly addNameRange     '0.4.4',
+31 silly addNameRange     '0.4.5',
+31 silly addNameRange     '0.4.6',
+31 silly addNameRange     '0.4.7',
+31 silly addNameRange     '0.4.8',
+31 silly addNameRange     '0.4.9',
+31 silly addNameRange     '0.4.10',
+31 silly addNameRange     '0.4.11',
+31 silly addNameRange     '0.4.12' ] ]
+32 verbose addNamed grunt-contrib-internal@0.4.12
+33 silly addNamed semver.valid 0.4.12
+34 silly addNamed semver.validRange 0.4.12
+35 silly cache afterAdd grunt-contrib-internal@0.4.12
+36 verbose afterAdd /Users/msartini/.npm/grunt-contrib-internal/0.4.12/package/package.json not in flight; writing
+37 verbose afterAdd /Users/msartini/.npm/grunt-contrib-internal/0.4.12/package/package.json written
+38 silly install resolved [ { name: 'grunt-contrib-internal',
+38 silly install resolved     description: 'Internal tasks for managing the grunt-contrib project.',
+38 silly install resolved     version: '0.4.12',
+38 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-internal',
+38 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+38 silly install resolved     repository:
+38 silly install resolved      { type: 'git',
+38 silly install resolved        url: 'git://github.com/gruntjs/grunt-contrib-internal.git' },
+38 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-internal/issues' },
+38 silly install resolved     licenses: [ [Object] ],
+38 silly install resolved     engines: { node: '>= 0.10.0' },
+38 silly install resolved     scripts: { test: 'grunt test' },
+38 silly install resolved     dependencies: { 'read-package-json': '~1.2.7' },
+38 silly install resolved     devDependencies: { grunt: '~0.4.5', 'grunt-contrib-jshint': '~0.10.0' },
+38 silly install resolved     peerDependencies: { grunt: '~0.4.5' },
+38 silly install resolved     keywords: [],
+38 silly install resolved     files: [ 'tasks', 'LICENSE-MIT', 'CONTRIBUTING.md' ],
+38 silly install resolved     contributors:
+38 silly install resolved      [ [Object],
+38 silly install resolved        [Object],
+38 silly install resolved        [Object],
+38 silly install resolved        [Object],
+38 silly install resolved        [Object],
+38 silly install resolved        [Object],
+38 silly install resolved        [Object] ],
+38 silly install resolved     gitHead: 'b14eb4956c6a7734631157ba28c7f14c7cfed816',
+38 silly install resolved     _id: 'grunt-contrib-internal@0.4.12',
+38 silly install resolved     _shasum: '43576b437220306f4bf153fb6e8765abc4f4d512',
+38 silly install resolved     _from: 'grunt-contrib-internal@*',
+38 silly install resolved     _npmVersion: '1.4.28',
+38 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+38 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+38 silly install resolved     dist:
+38 silly install resolved      { shasum: '43576b437220306f4bf153fb6e8765abc4f4d512',
+38 silly install resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-internal/-/grunt-contrib-internal-0.4.12.tgz' },
+38 silly install resolved     directories: {},
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-internal/-/grunt-contrib-internal-0.4.12.tgz',
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install grunt-contrib-internal@0.4.12 into /Users/msartini/wsjava/springmaven/grunt
+40 info installOne grunt-contrib-internal@0.4.12
+41 verbose installOne of grunt-contrib-internal to /Users/msartini/wsjava/springmaven/grunt not in flight; installing
+42 verbose lock using /Users/msartini/.npm/_locks/grunt-contrib-internal-6c22d433228c5ec7.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+43 warn engine grunt-contrib-internal@0.4.12: wanted: {"node":">= 0.10.0"} (current: {"node":"0.8.16","npm":"2.1.14"})
+44 silly install write writing grunt-contrib-internal 0.4.12 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+45 silly cache addNamed cb grunt-contrib-internal@0.4.12
+46 verbose unbuild node_modules/grunt-contrib-internal
+47 info preuninstall grunt-contrib-internal@0.4.12
+48 info uninstall grunt-contrib-internal@0.4.12
+49 verbose unbuild rmStuff grunt-contrib-internal@0.4.12 from /Users/msartini/wsjava/springmaven/grunt/node_modules
+50 info postuninstall grunt-contrib-internal@0.4.12
+51 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+52 silly gentlyRm purging /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+53 silly gentlyRm quitting because other entries in /Users/msartini/wsjava/springmaven/grunt/node_modules
+54 verbose tar unpack /Users/msartini/.npm/grunt-contrib-internal/0.4.12/package.tgz
+55 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+56 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry CONTRIBUTING.md
+61 silly gunzTarPerm extractEntry LICENSE-MIT
+62 silly gunzTarPerm extractEntry tasks/build-contrib.js
+63 silly gunzTarPerm extractEntry tasks/assets/README.tmpl.md
+64 info preinstall grunt-contrib-internal@0.4.12
+65 silly prepareForInstallMany adding read-package-json@~1.2.7 from grunt-contrib-internal dependencies
+66 silly prepareForInstallMany adding grunt@~0.4.5 from grunt-contrib-internal peerDependencies
+67 silly cache add args [ 'read-package-json@~1.2.7', null ]
+68 verbose cache add spec read-package-json@~1.2.7
+69 silly cache add parsed spec { raw: 'read-package-json@~1.2.7',
+69 silly cache add   scope: null,
+69 silly cache add   name: 'read-package-json',
+69 silly cache add   rawSpec: '~1.2.7',
+69 silly cache add   spec: '>=1.2.7 <1.3.0',
+69 silly cache add   type: 'range' }
+70 verbose addNamed read-package-json@>=1.2.7 <1.3.0
+71 silly addNamed semver.valid null
+72 silly addNamed semver.validRange >=1.2.7 <1.3.0
+73 silly addNameRange { name: 'read-package-json',
+73 silly addNameRange   range: '>=1.2.7 <1.3.0',
+73 silly addNameRange   hasData: false }
+74 silly mapToRegistry name read-package-json
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/read-package-json
+78 verbose addNameRange registry:https://registry.npmjs.org/read-package-json not in flight; fetching
+79 verbose request uri https://registry.npmjs.org/read-package-json
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 15:12:24
+82 verbose etag "ECBKWK8QH8MCX9QN73NJQWFWT"
+83 http request GET https://registry.npmjs.org/read-package-json
+84 http 304 https://registry.npmjs.org/read-package-json
+85 silly get cb [ 304,
+85 silly get   { date: 'Wed, 24 Dec 2014 17:12:25 GMT',
+85 silly get     server: 'Apache',
+85 silly get     via: '1.1 varnish',
+85 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:25 GMT',
+85 silly get     'cache-control': 'max-age=60',
+85 silly get     etag: '"ECBKWK8QH8MCX9QN73NJQWFWT"',
+85 silly get     age: '24',
+85 silly get     'x-served-by': 'cache-atl6224-ATL',
+85 silly get     'x-cache': 'HIT',
+85 silly get     'x-cache-hits': '1',
+85 silly get     'x-timer': 'S1419441145.487582,VS0,VE1',
+85 silly get     vary: 'Accept',
+85 silly get     'content-length': '0',
+85 silly get     'keep-alive': 'timeout=10, max=50',
+85 silly get     connection: 'Keep-Alive' } ]
+86 verbose etag https://registry.npmjs.org/read-package-json from cache
+87 silly addNameRange number 2 { name: 'read-package-json',
+87 silly addNameRange   range: '>=1.2.7 <1.3.0',
+87 silly addNameRange   hasData: true }
+88 silly addNameRange versions [ 'read-package-json',
+88 silly addNameRange   [ '0.0.1',
+88 silly addNameRange     '0.0.2',
+88 silly addNameRange     '0.0.3',
+88 silly addNameRange     '0.0.4',
+88 silly addNameRange     '0.0.5',
+88 silly addNameRange     '0.0.6',
+88 silly addNameRange     '0.0.7',
+88 silly addNameRange     '0.0.8',
+88 silly addNameRange     '0.0.9',
+88 silly addNameRange     '0.0.10',
+88 silly addNameRange     '0.0.11',
+88 silly addNameRange     '0.0.12',
+88 silly addNameRange     '0.1.0',
+88 silly addNameRange     '0.1.1',
+88 silly addNameRange     '0.1.2',
+88 silly addNameRange     '0.1.3',
+88 silly addNameRange     '0.1.4',
+88 silly addNameRange     '0.1.5',
+88 silly addNameRange     '0.1.6',
+88 silly addNameRange     '0.1.7',
+88 silly addNameRange     '0.1.8',
+88 silly addNameRange     '0.1.9',
+88 silly addNameRange     '0.1.10',
+88 silly addNameRange     '0.1.11',
+88 silly addNameRange     '0.1.12',
+88 silly addNameRange     '0.1.13',
+88 silly addNameRange     '0.2.0',
+88 silly addNameRange     '0.2.1',
+88 silly addNameRange     '0.2.2',
+88 silly addNameRange     '0.3.0',
+88 silly addNameRange     '0.3.1',
+88 silly addNameRange     '0.4.0',
+88 silly addNameRange     '0.4.1',
+88 silly addNameRange     '1.0.0-pre',
+88 silly addNameRange     '1.0.0-rc.0',
+88 silly addNameRange     '1.1.0',
+88 silly addNameRange     '1.1.1',
+88 silly addNameRange     '1.1.2',
+88 silly addNameRange     '1.1.3',
+88 silly addNameRange     '1.1.4',
+88 silly addNameRange     '1.1.5',
+88 silly addNameRange     '1.1.6',
+88 silly addNameRange     '1.1.7',
+88 silly addNameRange     '1.1.8',
+88 silly addNameRange     '1.1.9',
+88 silly addNameRange     '1.2.0',
+88 silly addNameRange     '1.2.1',
+88 silly addNameRange     '1.2.2',
+88 silly addNameRange     '1.2.3',
+88 silly addNameRange     '1.2.4',
+88 silly addNameRange     '1.2.5',
+88 silly addNameRange     '1.2.6',
+88 silly addNameRange     '1.2.7' ] ]
+89 verbose addNamed read-package-json@1.2.7
+90 silly addNamed semver.valid 1.2.7
+91 silly addNamed semver.validRange 1.2.7
+92 silly cache afterAdd read-package-json@1.2.7
+93 verbose afterAdd /Users/msartini/.npm/read-package-json/1.2.7/package/package.json not in flight; writing
+94 verbose afterAdd /Users/msartini/.npm/read-package-json/1.2.7/package/package.json written
+95 silly install resolved [ { name: 'read-package-json',
+95 silly install resolved     version: '1.2.7',
+95 silly install resolved     author:
+95 silly install resolved      { name: 'Isaac Z. Schlueter',
+95 silly install resolved        email: 'i@izs.me',
+95 silly install resolved        url: 'http://blog.izs.me/' },
+95 silly install resolved     description: 'The thing npm uses to read package.json files with semantics and defaults and validation',
+95 silly install resolved     repository:
+95 silly install resolved      { type: 'git',
+95 silly install resolved        url: 'git://github.com/isaacs/read-package-json.git' },
+95 silly install resolved     main: 'read-json.js',
+95 silly install resolved     scripts: { test: 'tap test/*.js' },
+95 silly install resolved     dependencies:
+95 silly install resolved      { 'github-url-from-git': '^1.3.0',
+95 silly install resolved        'github-url-from-username-repo': '~1.0.0',
+95 silly install resolved        glob: '^4.0.2',
+95 silly install resolved        'lru-cache': '2',
+95 silly install resolved        'normalize-package-data': '^1.0.0',
+95 silly install resolved        'graceful-fs': '2 || 3' },
+95 silly install resolved     devDependencies: { tap: '~0.2.5' },
+95 silly install resolved     optionalDependencies: { 'graceful-fs': '2 || 3' },
+95 silly install resolved     license: 'ISC',
+95 silly install resolved     gitHead: '41d6696c527e32a1cb38ebf0b6fc91b489b0499c',
+95 silly install resolved     bugs: { url: 'https://github.com/isaacs/read-package-json/issues' },
+95 silly install resolved     homepage: 'https://github.com/isaacs/read-package-json',
+95 silly install resolved     _id: 'read-package-json@1.2.7',
+95 silly install resolved     _shasum: 'f0b440c461a218f4dbf48b094e80fc65c5248502',
+95 silly install resolved     _from: 'read-package-json@>=1.2.7 <1.3.0',
+95 silly install resolved     _npmVersion: '2.0.0-beta.0',
+95 silly install resolved     _npmUser: { name: 'othiym23', email: 'ogd@aoaioxxysz.net' },
+95 silly install resolved     maintainers: [ [Object], [Object] ],
+95 silly install resolved     dist:
+95 silly install resolved      { shasum: 'f0b440c461a218f4dbf48b094e80fc65c5248502',
+95 silly install resolved        tarball: 'http://registry.npmjs.org/read-package-json/-/read-package-json-1.2.7.tgz' },
+95 silly install resolved     directories: {},
+95 silly install resolved     _resolved: 'https://registry.npmjs.org/read-package-json/-/read-package-json-1.2.7.tgz',
+95 silly install resolved     readme: 'ERROR: No README data found!' } ]
+96 info install read-package-json@1.2.7 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+97 info installOne read-package-json@1.2.7
+98 verbose installOne of read-package-json to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal not in flight; installing
+99 verbose lock using /Users/msartini/.npm/_locks/read-package-json-5e70f1d930623110.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+100 silly install write writing read-package-json 1.2.7 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+101 silly cache addNamed cb read-package-json@1.2.7
+102 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json
+103 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+104 verbose tar unpack /Users/msartini/.npm/read-package-json/1.2.7/package.tgz
+105 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+106 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+107 silly gunzTarPerm modes [ '755', '644' ]
+108 silly gunzTarPerm extractEntry package.json
+109 silly gunzTarPerm extractEntry .npmignore
+110 silly gunzTarPerm extractEntry README.md
+111 silly gunzTarPerm extractEntry LICENSE
+112 silly gunzTarPerm extractEntry read-json.js
+113 silly gunzTarPerm extractEntry test/basic.js
+114 silly gunzTarPerm extractEntry test/bom.js
+115 silly gunzTarPerm extractEntry test/non-json.js
+116 silly gunzTarPerm extractEntry test/readmes.js
+117 silly gunzTarPerm extractEntry test/fixtures/bom.json
+118 silly gunzTarPerm extractEntry test/fixtures/nobom.json
+119 silly gunzTarPerm extractEntry test/fixtures/not-json.css
+120 silly gunzTarPerm extractEntry test/fixtures/readmes/package.json
+121 silly gunzTarPerm extractEntry test/fixtures/readmes/README
+122 silly gunzTarPerm extractEntry test/fixtures/readmes/README.md
+123 silly gunzTarPerm extractEntry test/fixtures/readmes/readmexxx.yz
+124 info preinstall read-package-json@1.2.7
+125 silly prepareForInstallMany adding github-url-from-git@^1.3.0 from read-package-json dependencies
+126 silly prepareForInstallMany adding github-url-from-username-repo@~1.0.0 from read-package-json dependencies
+127 silly prepareForInstallMany adding glob@^4.0.2 from read-package-json dependencies
+128 silly prepareForInstallMany adding lru-cache@2 from read-package-json dependencies
+129 silly prepareForInstallMany adding normalize-package-data@^1.0.0 from read-package-json dependencies
+130 silly prepareForInstallMany adding graceful-fs@2 || 3 from read-package-json dependencies
+131 silly cache add args [ 'github-url-from-git@^1.3.0', null ]
+132 verbose cache add spec github-url-from-git@^1.3.0
+133 silly cache add args [ 'github-url-from-username-repo@~1.0.0', null ]
+134 verbose cache add spec github-url-from-username-repo@~1.0.0
+135 silly cache add parsed spec { raw: 'github-url-from-git@^1.3.0',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'github-url-from-git',
+135 silly cache add   rawSpec: '^1.3.0',
+135 silly cache add   spec: '>=1.3.0 <2.0.0',
+135 silly cache add   type: 'range' }
+136 verbose addNamed github-url-from-git@>=1.3.0 <2.0.0
+137 silly addNamed semver.valid null
+138 silly addNamed semver.validRange >=1.3.0 <2.0.0
+139 silly addNameRange { name: 'github-url-from-git',
+139 silly addNameRange   range: '>=1.3.0 <2.0.0',
+139 silly addNameRange   hasData: false }
+140 silly mapToRegistry name github-url-from-git
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry uri https://registry.npmjs.org/github-url-from-git
+144 verbose addNameRange registry:https://registry.npmjs.org/github-url-from-git not in flight; fetching
+145 silly cache add parsed spec { raw: 'github-url-from-username-repo@~1.0.0',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'github-url-from-username-repo',
+145 silly cache add   rawSpec: '~1.0.0',
+145 silly cache add   spec: '>=1.0.0 <1.1.0',
+145 silly cache add   type: 'range' }
+146 verbose addNamed github-url-from-username-repo@>=1.0.0 <1.1.0
+147 silly addNamed semver.valid null
+148 silly addNamed semver.validRange >=1.0.0 <1.1.0
+149 silly addNameRange { name: 'github-url-from-username-repo',
+149 silly addNameRange   range: '>=1.0.0 <1.1.0',
+149 silly addNameRange   hasData: false }
+150 silly mapToRegistry name github-url-from-username-repo
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry uri https://registry.npmjs.org/github-url-from-username-repo
+154 verbose addNameRange registry:https://registry.npmjs.org/github-url-from-username-repo not in flight; fetching
+155 verbose request uri https://registry.npmjs.org/github-url-from-git
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 15:12:25
+158 verbose etag "7RCD19QJ0QPXIWGFPOLVHFO2H"
+159 http request GET https://registry.npmjs.org/github-url-from-git
+160 verbose request uri https://registry.npmjs.org/github-url-from-username-repo
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 15:12:25
+163 verbose etag "8JINBHNXT2O839LPXND112QBK"
+164 http request GET https://registry.npmjs.org/github-url-from-username-repo
+165 silly cache add args [ 'glob@^4.0.2', null ]
+166 verbose cache add spec glob@^4.0.2
+167 silly cache add args [ 'lru-cache@2', null ]
+168 verbose cache add spec lru-cache@2
+169 silly cache add args [ 'normalize-package-data@^1.0.0', null ]
+170 verbose cache add spec normalize-package-data@^1.0.0
+171 silly cache add args [ 'graceful-fs@2 || 3', null ]
+172 verbose cache add spec graceful-fs@2 || 3
+173 silly cache add parsed spec { raw: 'glob@^4.0.2',
+173 silly cache add   scope: null,
+173 silly cache add   name: 'glob',
+173 silly cache add   rawSpec: '^4.0.2',
+173 silly cache add   spec: '>=4.0.2 <5.0.0',
+173 silly cache add   type: 'range' }
+174 verbose addNamed glob@>=4.0.2 <5.0.0
+175 silly addNamed semver.valid null
+176 silly addNamed semver.validRange >=4.0.2 <5.0.0
+177 silly addNameRange { name: 'glob', range: '>=4.0.2 <5.0.0', hasData: false }
+178 silly mapToRegistry name glob
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry uri https://registry.npmjs.org/glob
+182 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+183 silly cache add parsed spec { raw: 'lru-cache@2',
+183 silly cache add   scope: null,
+183 silly cache add   name: 'lru-cache',
+183 silly cache add   rawSpec: '2',
+183 silly cache add   spec: '>=2.0.0 <3.0.0',
+183 silly cache add   type: 'range' }
+184 verbose addNamed lru-cache@>=2.0.0 <3.0.0
+185 silly addNamed semver.valid null
+186 silly addNamed semver.validRange >=2.0.0 <3.0.0
+187 silly addNameRange { name: 'lru-cache', range: '>=2.0.0 <3.0.0', hasData: false }
+188 silly mapToRegistry name lru-cache
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry uri https://registry.npmjs.org/lru-cache
+192 verbose addNameRange registry:https://registry.npmjs.org/lru-cache not in flight; fetching
+193 silly cache add parsed spec { raw: 'normalize-package-data@^1.0.0',
+193 silly cache add   scope: null,
+193 silly cache add   name: 'normalize-package-data',
+193 silly cache add   rawSpec: '^1.0.0',
+193 silly cache add   spec: '>=1.0.0 <2.0.0',
+193 silly cache add   type: 'range' }
+194 verbose addNamed normalize-package-data@>=1.0.0 <2.0.0
+195 silly addNamed semver.valid null
+196 silly addNamed semver.validRange >=1.0.0 <2.0.0
+197 silly addNameRange { name: 'normalize-package-data',
+197 silly addNameRange   range: '>=1.0.0 <2.0.0',
+197 silly addNameRange   hasData: false }
+198 silly mapToRegistry name normalize-package-data
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry uri https://registry.npmjs.org/normalize-package-data
+202 verbose addNameRange registry:https://registry.npmjs.org/normalize-package-data not in flight; fetching
+203 silly cache add parsed spec { raw: 'graceful-fs@2 || 3',
+203 silly cache add   scope: null,
+203 silly cache add   name: 'graceful-fs',
+203 silly cache add   rawSpec: '2 || 3',
+203 silly cache add   spec: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+203 silly cache add   type: 'range' }
+204 verbose addNamed graceful-fs@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0
+205 silly addNamed semver.valid null
+206 silly addNamed semver.validRange >=2.0.0 <3.0.0||>=3.0.0 <4.0.0
+207 silly addNameRange { name: 'graceful-fs',
+207 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+207 silly addNameRange   hasData: false }
+208 silly mapToRegistry name graceful-fs
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry https://registry.npmjs.org/
+211 silly mapToRegistry uri https://registry.npmjs.org/graceful-fs
+212 verbose addNameRange registry:https://registry.npmjs.org/graceful-fs not in flight; fetching
+213 verbose request uri https://registry.npmjs.org/glob
+214 verbose request no auth needed
+215 info attempt registry request try #1 at 15:12:25
+216 verbose etag "QAFO3QJU0TY2Q7YPWT79LW1F"
+217 http request GET https://registry.npmjs.org/glob
+218 verbose request uri https://registry.npmjs.org/lru-cache
+219 verbose request no auth needed
+220 info attempt registry request try #1 at 15:12:25
+221 verbose etag "9GS17NOV1J4IUGAIECQ8GFV3N"
+222 http request GET https://registry.npmjs.org/lru-cache
+223 verbose request uri https://registry.npmjs.org/normalize-package-data
+224 verbose request no auth needed
+225 info attempt registry request try #1 at 15:12:25
+226 verbose etag "65Z87EDM2N1QUGMXPYRBK6M9F"
+227 http request GET https://registry.npmjs.org/normalize-package-data
+228 verbose request uri https://registry.npmjs.org/graceful-fs
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 15:12:25
+231 verbose etag "YI3CUA6DFZEU7F4JXVMK6K9"
+232 http request GET https://registry.npmjs.org/graceful-fs
+233 http 304 https://registry.npmjs.org/github-url-from-git
+234 silly get cb [ 304,
+234 silly get   { date: 'Wed, 24 Dec 2014 17:12:26 GMT',
+234 silly get     server: 'Apache',
+234 silly get     via: '1.1 varnish',
+234 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:26 GMT',
+234 silly get     'cache-control': 'max-age=60',
+234 silly get     etag: '"7RCD19QJ0QPXIWGFPOLVHFO2H"',
+234 silly get     age: '23',
+234 silly get     'x-served-by': 'cache-atl6225-ATL',
+234 silly get     'x-cache': 'HIT',
+234 silly get     'x-cache-hits': '1',
+234 silly get     'x-timer': 'S1419441146.197412,VS0,VE0',
+234 silly get     vary: 'Accept',
+234 silly get     'content-length': '0',
+234 silly get     'keep-alive': 'timeout=10, max=50',
+234 silly get     connection: 'Keep-Alive' } ]
+235 verbose etag https://registry.npmjs.org/github-url-from-git from cache
+236 http 304 https://registry.npmjs.org/lru-cache
+237 silly get cb [ 304,
+237 silly get   { date: 'Wed, 24 Dec 2014 17:12:26 GMT',
+237 silly get     server: 'Apache',
+237 silly get     via: '1.1 varnish',
+237 silly get     'last-modified': 'Wed, 24 Dec 2014 17:11:46 GMT',
+237 silly get     'cache-control': 'max-age=60',
+237 silly get     etag: '"9GS17NOV1J4IUGAIECQ8GFV3N"',
+237 silly get     age: '42',
+237 silly get     'x-served-by': 'cache-atl6225-ATL',
+237 silly get     'x-cache': 'HIT',
+237 silly get     'x-cache-hits': '2',
+237 silly get     'x-timer': 'S1419441146.198398,VS0,VE0',
+237 silly get     vary: 'Accept',
+237 silly get     'content-length': '0',
+237 silly get     'keep-alive': 'timeout=10, max=50',
+237 silly get     connection: 'Keep-Alive' } ]
+238 verbose etag https://registry.npmjs.org/lru-cache from cache
+239 http 304 https://registry.npmjs.org/glob
+240 silly get cb [ 304,
+240 silly get   { date: 'Wed, 24 Dec 2014 17:12:26 GMT',
+240 silly get     server: 'Apache',
+240 silly get     via: '1.1 varnish',
+240 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:16 GMT',
+240 silly get     'cache-control': 'max-age=60',
+240 silly get     etag: '"QAFO3QJU0TY2Q7YPWT79LW1F"',
+240 silly get     age: '23',
+240 silly get     'x-served-by': 'cache-atl6223-ATL',
+240 silly get     'x-cache': 'HIT',
+240 silly get     'x-cache-hits': '3',
+240 silly get     'x-timer': 'S1419441146.200393,VS0,VE0',
+240 silly get     vary: 'Accept',
+240 silly get     'content-length': '0',
+240 silly get     'keep-alive': 'timeout=10, max=50',
+240 silly get     connection: 'Keep-Alive' } ]
+241 verbose etag https://registry.npmjs.org/glob from cache
+242 http 304 https://registry.npmjs.org/normalize-package-data
+243 silly get cb [ 304,
+243 silly get   { date: 'Wed, 24 Dec 2014 17:12:26 GMT',
+243 silly get     server: 'Apache',
+243 silly get     via: '1.1 varnish',
+243 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:03 GMT',
+243 silly get     'cache-control': 'max-age=60',
+243 silly get     etag: '"65Z87EDM2N1QUGMXPYRBK6M9F"',
+243 silly get     age: '23',
+243 silly get     'x-served-by': 'cache-atl6233-ATL',
+243 silly get     'x-cache': 'HIT',
+243 silly get     'x-cache-hits': '2',
+243 silly get     'x-timer': 'S1419441146.208640,VS0,VE0',
+243 silly get     vary: 'Accept',
+243 silly get     'content-length': '0',
+243 silly get     'keep-alive': 'timeout=10, max=50',
+243 silly get     connection: 'Keep-Alive' } ]
+244 verbose etag https://registry.npmjs.org/normalize-package-data from cache
+245 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.0.0 <3.0.0', hasData: true }
+246 silly addNameRange versions [ 'lru-cache',
+246 silly addNameRange   [ '1.0.1',
+246 silly addNameRange     '1.0.2',
+246 silly addNameRange     '1.0.3',
+246 silly addNameRange     '1.0.4',
+246 silly addNameRange     '1.0.5',
+246 silly addNameRange     '1.0.6',
+246 silly addNameRange     '1.1.0',
+246 silly addNameRange     '1.1.1',
+246 silly addNameRange     '2.0.0',
+246 silly addNameRange     '2.0.1',
+246 silly addNameRange     '2.0.2',
+246 silly addNameRange     '2.0.3',
+246 silly addNameRange     '2.0.4',
+246 silly addNameRange     '2.1.0',
+246 silly addNameRange     '2.2.0',
+246 silly addNameRange     '2.2.1',
+246 silly addNameRange     '2.2.2',
+246 silly addNameRange     '2.2.4',
+246 silly addNameRange     '2.3.0',
+246 silly addNameRange     '2.3.1',
+246 silly addNameRange     '2.5.0' ] ]
+247 verbose addNamed lru-cache@2.5.0
+248 silly addNamed semver.valid 2.5.0
+249 silly addNamed semver.validRange 2.5.0
+250 silly addNameRange number 2 { name: 'github-url-from-git',
+250 silly addNameRange   range: '>=1.3.0 <2.0.0',
+250 silly addNameRange   hasData: true }
+251 silly addNameRange versions [ 'github-url-from-git',
+251 silly addNameRange   [ '0.0.1', '1.0.0', '1.1.0', '1.1.1', '1.2.0', '1.3.0', '1.4.0' ] ]
+252 verbose addNamed github-url-from-git@1.4.0
+253 silly addNamed semver.valid 1.4.0
+254 silly addNamed semver.validRange 1.4.0
+255 silly addNameRange number 2 { name: 'glob', range: '>=4.0.2 <5.0.0', hasData: true }
+256 silly addNameRange versions [ 'glob',
+256 silly addNameRange   [ '1.1.0',
+256 silly addNameRange     '2.0.9',
+256 silly addNameRange     '2.0.8',
+256 silly addNameRange     '2.0.7',
+256 silly addNameRange     '2.1.0',
+256 silly addNameRange     '3.0.0',
+256 silly addNameRange     '3.0.1',
+256 silly addNameRange     '3.1.0',
+256 silly addNameRange     '3.1.1',
+256 silly addNameRange     '3.1.2',
+256 silly addNameRange     '3.1.3',
+256 silly addNameRange     '3.1.4',
+256 silly addNameRange     '3.1.5',
+256 silly addNameRange     '3.1.6',
+256 silly addNameRange     '3.1.7',
+256 silly addNameRange     '3.1.9',
+256 silly addNameRange     '3.1.10',
+256 silly addNameRange     '3.1.11',
+256 silly addNameRange     '3.1.12',
+256 silly addNameRange     '3.1.13',
+256 silly addNameRange     '3.1.14',
+256 silly addNameRange     '3.1.15',
+256 silly addNameRange     '3.1.16',
+256 silly addNameRange     '3.1.17',
+256 silly addNameRange     '3.1.18',
+256 silly addNameRange     '3.1.19',
+256 silly addNameRange     '3.1.20',
+256 silly addNameRange     '3.1.21',
+256 silly addNameRange     '3.2.0',
+256 silly addNameRange     '3.2.1',
+256 silly addNameRange     '3.2.3',
+256 silly addNameRange     '3.2.4',
+256 silly addNameRange     '3.2.5',
+256 silly addNameRange     '3.2.6',
+256 silly addNameRange     '3.2.7',
+256 silly addNameRange     '3.2.8',
+256 silly addNameRange     '3.2.9',
+256 silly addNameRange     '3.2.10',
+256 silly addNameRange     '3.2.11',
+256 silly addNameRange     '4.0.0',
+256 silly addNameRange     '4.0.1',
+256 silly addNameRange     '4.0.2',
+256 silly addNameRange     '4.0.3',
+256 silly addNameRange     '4.0.4',
+256 silly addNameRange     '4.0.5',
+256 silly addNameRange     '4.0.6',
+256 silly addNameRange     '4.1.2-beta',
+256 silly addNameRange     '4.1.2',
+256 silly addNameRange     '4.1.3',
+256 silly addNameRange     '4.1.4',
+256 silly addNameRange     '4.1.5',
+256 silly addNameRange     '4.1.6',
+256 silly addNameRange     '4.2.0',
+256 silly addNameRange     '4.2.1',
+256 silly addNameRange     '4.2.2',
+256 silly addNameRange     '4.3.0',
+256 silly addNameRange     '4.3.1',
+256 silly addNameRange     '4.3.2' ] ]
+257 verbose addNamed glob@4.3.2
+258 silly addNamed semver.valid 4.3.2
+259 silly addNamed semver.validRange 4.3.2
+260 silly addNameRange number 2 { name: 'normalize-package-data',
+260 silly addNameRange   range: '>=1.0.0 <2.0.0',
+260 silly addNameRange   hasData: true }
+261 silly addNameRange versions [ 'normalize-package-data',
+261 silly addNameRange   [ '0.0.1',
+261 silly addNameRange     '0.0.3',
+261 silly addNameRange     '0.0.5',
+261 silly addNameRange     '0.0.7',
+261 silly addNameRange     '0.0.9',
+261 silly addNameRange     '0.0.10',
+261 silly addNameRange     '0.1.1',
+261 silly addNameRange     '0.1.2',
+261 silly addNameRange     '0.1.3',
+261 silly addNameRange     '0.1.4',
+261 silly addNameRange     '0.1.5',
+261 silly addNameRange     '0.1.6',
+261 silly addNameRange     '0.1.7',
+261 silly addNameRange     '0.2.0',
+261 silly addNameRange     '0.2.1',
+261 silly addNameRange     '0.2.2',
+261 silly addNameRange     '0.2.3',
+261 silly addNameRange     '0.2.4',
+261 silly addNameRange     '0.2.5',
+261 silly addNameRange     '0.2.6',
+261 silly addNameRange     '0.2.7',
+261 silly addNameRange     '0.2.8',
+261 silly addNameRange     '0.2.9',
+261 silly addNameRange     '0.2.11',
+261 silly addNameRange     '0.2.12',
+261 silly addNameRange     '0.2.13',
+261 silly addNameRange     '0.3.0',
+261 silly addNameRange     '0.4.1',
+261 silly addNameRange     '0.4.2',
+261 silly addNameRange     '1.0.0',
+261 silly addNameRange     '1.0.1',
+261 silly addNameRange     '1.0.2',
+261 silly addNameRange     '1.0.3' ] ]
+262 verbose addNamed normalize-package-data@1.0.3
+263 silly addNamed semver.valid 1.0.3
+264 silly addNamed semver.validRange 1.0.3
+265 silly cache afterAdd lru-cache@2.5.0
+266 verbose afterAdd /Users/msartini/.npm/lru-cache/2.5.0/package/package.json not in flight; writing
+267 silly cache afterAdd github-url-from-git@1.4.0
+268 verbose afterAdd /Users/msartini/.npm/github-url-from-git/1.4.0/package/package.json not in flight; writing
+269 silly cache afterAdd glob@4.3.2
+270 verbose afterAdd /Users/msartini/.npm/glob/4.3.2/package/package.json not in flight; writing
+271 silly cache afterAdd normalize-package-data@1.0.3
+272 verbose afterAdd /Users/msartini/.npm/normalize-package-data/1.0.3/package/package.json not in flight; writing
+273 verbose afterAdd /Users/msartini/.npm/lru-cache/2.5.0/package/package.json written
+274 verbose afterAdd /Users/msartini/.npm/github-url-from-git/1.4.0/package/package.json written
+275 verbose afterAdd /Users/msartini/.npm/glob/4.3.2/package/package.json written
+276 verbose afterAdd /Users/msartini/.npm/normalize-package-data/1.0.3/package/package.json written
+277 http 304 https://registry.npmjs.org/github-url-from-username-repo
+278 silly get cb [ 304,
+278 silly get   { date: 'Wed, 24 Dec 2014 17:12:26 GMT',
+278 silly get     server: 'Apache',
+278 silly get     via: '1.1 varnish',
+278 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:26 GMT',
+278 silly get     'cache-control': 'max-age=60',
+278 silly get     etag: '"8JINBHNXT2O839LPXND112QBK"',
+278 silly get     age: '0',
+278 silly get     'x-served-by': 'cache-atl6221-ATL',
+278 silly get     'x-cache': 'HIT',
+278 silly get     'x-cache-hits': '1',
+278 silly get     'x-timer': 'S1419441146.212058,VS0,VE75',
+278 silly get     vary: 'Accept',
+278 silly get     'content-length': '0',
+278 silly get     'keep-alive': 'timeout=10, max=50',
+278 silly get     connection: 'Keep-Alive' } ]
+279 verbose etag https://registry.npmjs.org/github-url-from-username-repo from cache
+280 silly addNameRange number 2 { name: 'github-url-from-username-repo',
+280 silly addNameRange   range: '>=1.0.0 <1.1.0',
+280 silly addNameRange   hasData: true }
+281 silly addNameRange versions [ 'github-url-from-username-repo',
+281 silly addNameRange   [ '0.0.2', '0.1.0', '0.2.0', '1.0.0', '1.0.1', '1.0.2' ] ]
+282 verbose addNamed github-url-from-username-repo@1.0.2
+283 silly addNamed semver.valid 1.0.2
+284 silly addNamed semver.validRange 1.0.2
+285 silly cache afterAdd github-url-from-username-repo@1.0.2
+286 verbose afterAdd /Users/msartini/.npm/github-url-from-username-repo/1.0.2/package/package.json not in flight; writing
+287 verbose afterAdd /Users/msartini/.npm/github-url-from-username-repo/1.0.2/package/package.json written
+288 http 304 https://registry.npmjs.org/graceful-fs
+289 silly get cb [ 304,
+289 silly get   { date: 'Wed, 24 Dec 2014 17:12:26 GMT',
+289 silly get     server: 'Apache',
+289 silly get     via: '1.1 varnish',
+289 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:26 GMT',
+289 silly get     'cache-control': 'max-age=60',
+289 silly get     etag: '"YI3CUA6DFZEU7F4JXVMK6K9"',
+289 silly get     age: '32',
+289 silly get     'x-served-by': 'cache-atl6225-ATL',
+289 silly get     'x-cache': 'HIT',
+289 silly get     'x-cache-hits': '1',
+289 silly get     'x-timer': 'S1419441146.364869,VS0,VE0',
+289 silly get     vary: 'Accept',
+289 silly get     'content-length': '0',
+289 silly get     'keep-alive': 'timeout=10, max=49',
+289 silly get     connection: 'Keep-Alive' } ]
+290 verbose etag https://registry.npmjs.org/graceful-fs from cache
+291 silly addNameRange number 2 { name: 'graceful-fs',
+291 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+291 silly addNameRange   hasData: true }
+292 silly addNameRange versions [ 'graceful-fs',
+292 silly addNameRange   [ '1.0.0',
+292 silly addNameRange     '1.0.1',
+292 silly addNameRange     '1.0.2',
+292 silly addNameRange     '1.1.0',
+292 silly addNameRange     '1.1.1',
+292 silly addNameRange     '1.1.2',
+292 silly addNameRange     '1.1.3',
+292 silly addNameRange     '1.1.4',
+292 silly addNameRange     '1.1.5',
+292 silly addNameRange     '1.1.6',
+292 silly addNameRange     '1.1.7',
+292 silly addNameRange     '1.1.8',
+292 silly addNameRange     '1.1.9',
+292 silly addNameRange     '1.1.10',
+292 silly addNameRange     '1.1.11',
+292 silly addNameRange     '1.1.12',
+292 silly addNameRange     '1.1.13',
+292 silly addNameRange     '1.1.14',
+292 silly addNameRange     '1.2.0',
+292 silly addNameRange     '1.2.1',
+292 silly addNameRange     '1.2.2',
+292 silly addNameRange     '1.2.3',
+292 silly addNameRange     '2.0.0',
+292 silly addNameRange     '2.0.1',
+292 silly addNameRange     '2.0.2',
+292 silly addNameRange     '2.0.3',
+292 silly addNameRange     '3.0.0',
+292 silly addNameRange     '3.0.1',
+292 silly addNameRange     '3.0.2',
+292 silly addNameRange     '3.0.3',
+292 silly addNameRange     '3.0.4',
+292 silly addNameRange     '3.0.5' ] ]
+293 verbose addNamed graceful-fs@3.0.5
+294 silly addNamed semver.valid 3.0.5
+295 silly addNamed semver.validRange 3.0.5
+296 silly cache afterAdd graceful-fs@3.0.5
+297 verbose afterAdd /Users/msartini/.npm/graceful-fs/3.0.5/package/package.json not in flight; writing
+298 verbose afterAdd /Users/msartini/.npm/graceful-fs/3.0.5/package/package.json written
+299 silly install resolved [ { name: 'lru-cache',
+299 silly install resolved     description: 'A cache object that deletes the least-recently-used items.',
+299 silly install resolved     version: '2.5.0',
+299 silly install resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+299 silly install resolved     scripts: { test: 'tap test --gc' },
+299 silly install resolved     main: 'lib/lru-cache.js',
+299 silly install resolved     repository:
+299 silly install resolved      { type: 'git',
+299 silly install resolved        url: 'git://github.com/isaacs/node-lru-cache.git' },
+299 silly install resolved     devDependencies: { tap: '', weak: '' },
+299 silly install resolved     license:
+299 silly install resolved      { type: 'MIT',
+299 silly install resolved        url: 'http://github.com/isaacs/node-lru-cache/raw/master/LICENSE' },
+299 silly install resolved     readme: '# lru cache\n\nA cache object that deletes the least-recently-used items.\n\n## Usage:\n\n```javascript\nvar LRU = require("lru-cache")\n  , options = { max: 500\n              , length: function (n) { return n * 2 }\n              , dispose: function (key, n) { n.close() }\n              , maxAge: 1000 * 60 * 60 }\n  , cache = LRU(options)\n  , otherCache = LRU(50) // sets just the max size\n\ncache.set("key", "value")\ncache.get("key") // "value"\n\ncache.reset()    // empty the cache\n```\n\nIf you put more stuff in it, then items will fall out.\n\nIf you try to put an oversized thing in it, then it\'ll fall out right\naway.\n\n## Options\n\n* `max` The maximum size of the cache, checked by applying the length\n  function to all values in the cache.  Not setting this is kind of\n  silly, since that\'s the whole purpose of this lib, but it defaults\n  to `Infinity`.\n* `maxAge` Maximum age in ms.  Items are not pro-actively pruned out\n  as they age, but if you try to get an item that is too old, it\'ll\n  drop it and return undefined instead of giving it to you.\n* `length` Function that is used to calculate the length of stored\n  items.  If you\'re storing strings or buffers, then you probably want\n  to do something like `function(n){return n.length}`.  The default is\n  `function(n){return 1}`, which is fine if you want to store `n`\n  like-sized things.\n* `dispose` Function that is called on items when they are dropped\n  from the cache.  This can be handy if you want to close file\n  descriptors or do other cleanup tasks when items are no longer\n  accessible.  Called with `key, value`.  It\'s called *before*\n  actually removing the item from the internal cache, so if you want\n  to immediately put it back in, you\'ll have to do that in a\n  `nextTick` or `setTimeout` callback or it won\'t do anything.\n* `stale` By default, if you set a `maxAge`, it\'ll only actually pull\n  stale items out of the cache when you `get(key)`.  (That is, it\'s\n  not pre-emptively doing a `setTimeout` or anything.)  If you set\n  `stale:true`, it\'ll return the stale value before deleting it.  If\n  you don\'t set this, then it\'ll return `undefined` when you try to\n  get a stale entry, as if it had already been deleted.\n\n## API\n\n* `set(key, value)`\n* `get(key) => value`\n\n    Both of these will update the "recently used"-ness of the key.\n    They do what you think.\n\n* `peek(key)`\n\n    Returns the key value (or `undefined` if not found) without\n    updating the "recently used"-ness of the key.\n\n    (If you find yourself using this a lot, you *might* be using the\n    wrong sort of data structure, but there are some use cases where\n    it\'s handy.)\n\n* `del(key)`\n\n    Deletes a key out of the cache.\n\n* `reset()`\n\n    Clear the cache entirely, throwing away all values.\n\n* `has(key)`\n\n    Check if a key is in the cache, without updating the recent-ness\n    or deleting it for being stale.\n\n* `forEach(function(value,key,cache), [thisp])`\n\n    Just like `Array.prototype.forEach`.  Iterates over all the keys\n    in the cache, in order of recent-ness.  (Ie, more recently used\n    items are iterated over first.)\n\n* `keys()`\n\n    Return an array of the keys in the cache.\n\n* `values()`\n\n    Return an array of the values in the cache.\n',
+299 silly install resolved     readmeFilename: 'README.md',
+299 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-lru-cache/issues' },
+299 silly install resolved     homepage: 'https://github.com/isaacs/node-lru-cache',
+299 silly install resolved     _id: 'lru-cache@2.5.0',
+299 silly install resolved     _from: 'lru-cache@>=2.0.0 <3.0.0' },
+299 silly install resolved   { name: 'github-url-from-git',
+299 silly install resolved     version: '1.4.0',
+299 silly install resolved     description: 'Parse a github git url and return the github repo url',
+299 silly install resolved     main: 'index.js',
+299 silly install resolved     scripts: { test: 'mocha test.js --reporter spec --require should' },
+299 silly install resolved     repository:
+299 silly install resolved      { type: 'git',
+299 silly install resolved        url: 'https://github.com/visionmedia/node-github-url-from-git.git' },
+299 silly install resolved     keywords: [ 'github', 'git', 'url', 'parser' ],
+299 silly install resolved     author: { name: 'TJ Holowaychuk' },
+299 silly install resolved     license: 'MIT',
+299 silly install resolved     devDependencies: { 'better-assert': '~1.0.0', mocha: '~1.9.0', should: '~1.2.2' },
+299 silly install resolved     gitHead: '154df00b0b590c29be5d2a5822e7b2e160b75345',
+299 silly install resolved     bugs: { url: 'https://github.com/visionmedia/node-github-url-from-git/issues' },
+299 silly install resolved     homepage: 'https://github.com/visionmedia/node-github-url-from-git',
+299 silly install resolved     _id: 'github-url-from-git@1.4.0',
+299 silly install resolved     _shasum: '285e6b520819001bde128674704379e4ff03e0de',
+299 silly install resolved     _from: 'github-url-from-git@>=1.3.0 <2.0.0',
+299 silly install resolved     _npmVersion: '2.0.0-alpha.7',
+299 silly install resolved     _npmUser: { name: 'bcoe', email: 'bencoe@gmail.com' },
+299 silly install resolved     maintainers: [ [Object], [Object] ],
+299 silly install resolved     dist:
+299 silly install resolved      { shasum: '285e6b520819001bde128674704379e4ff03e0de',
+299 silly install resolved        tarball: 'http://registry.npmjs.org/github-url-from-git/-/github-url-from-git-1.4.0.tgz' },
+299 silly install resolved     directories: {},
+299 silly install resolved     _resolved: 'https://registry.npmjs.org/github-url-from-git/-/github-url-from-git-1.4.0.tgz',
+299 silly install resolved     readme: 'ERROR: No README data found!' },
+299 silly install resolved   { author:
+299 silly install resolved      { name: 'Isaac Z. Schlueter',
+299 silly install resolved        email: 'i@izs.me',
+299 silly install resolved        url: 'http://blog.izs.me/' },
+299 silly install resolved     name: 'glob',
+299 silly install resolved     description: 'a little globber',
+299 silly install resolved     version: '4.3.2',
+299 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-glob.git' },
+299 silly install resolved     main: 'glob.js',
+299 silly install resolved     files: [ 'glob.js', 'sync.js', 'common.js' ],
+299 silly install resolved     engines: { node: '*' },
+299 silly install resolved     dependencies:
+299 silly install resolved      { inflight: '^1.0.4',
+299 silly install resolved        inherits: '2',
+299 silly install resolved        minimatch: '^2.0.1',
+299 silly install resolved        once: '^1.3.0' },
+299 silly install resolved     devDependencies: { mkdirp: '0', rimraf: '^2.2.8', tap: '~0.4.0', tick: '0.0.6' },
+299 silly install resolved     scripts:
+299 silly install resolved      { prepublish: 'npm run benchclean',
+299 silly install resolved        profclean: 'rm -f v8.log profile.txt',
+299 silly install resolved        test: 'npm run profclean && tap test/*.js',
+299 silly install resolved        'test-regen': 'npm run profclean && TEST_REGEN=1 node test/00-setup.js',
+299 silly install resolved        bench: 'bash benchmark.sh',
+299 silly install resolved        prof: 'bash prof.sh && cat profile.txt',
+299 silly install resolved        benchclean: 'bash benchclean.sh' },
+299 silly install resolved     license: 'ISC',
+299 silly install resolved     gitHead: '941d53c8ab6216f43a6f5e8e01245364ba90cfe9',
+299 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-glob/issues' },
+299 silly install resolved     homepage: 'https://github.com/isaacs/node-glob',
+299 silly install resolved     _id: 'glob@4.3.2',
+299 silly install resolved     _shasum: '351ec7dafc29256b253ad86cd6b48c5a3404b76d',
+299 silly install resolved     _from: 'glob@>=4.0.2 <5.0.0',
+299 silly install resolved     _npmVersion: '2.1.14',
+299 silly install resolved     _nodeVersion: '0.10.33',
+299 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+299 silly install resolved     maintainers: [ [Object] ],
+299 silly install resolved     dist:
+299 silly install resolved      { shasum: '351ec7dafc29256b253ad86cd6b48c5a3404b76d',
+299 silly install resolved        tarball: 'http://registry.npmjs.org/glob/-/glob-4.3.2.tgz' },
+299 silly install resolved     directories: {},
+299 silly install resolved     _resolved: 'https://registry.npmjs.org/glob/-/glob-4.3.2.tgz',
+299 silly install resolved     readme: 'ERROR: No README data found!' },
+299 silly install resolved   { name: 'normalize-package-data',
+299 silly install resolved     version: '1.0.3',
+299 silly install resolved     author: { name: 'Meryn Stol', email: 'merynstol@gmail.com' },
+299 silly install resolved     description: 'Normalizes data that can be found in package.json files.',
+299 silly install resolved     repository:
+299 silly install resolved      { type: 'git',
+299 silly install resolved        url: 'git://github.com/meryn/normalize-package-data.git' },
+299 silly install resolved     main: 'lib/normalize.js',
+299 silly install resolved     scripts: { test: 'tap test/*.js' },
+299 silly install resolved     dependencies:
+299 silly install resolved      { 'github-url-from-git': '^1.3.0',
+299 silly install resolved        'github-url-from-username-repo': '^1.0.0',
+299 silly install resolved        semver: '2 || 3 || 4' },
+299 silly install resolved     devDependencies: { tap: '~0.2.5', underscore: '~1.4.4', async: '~0.9.0' },
+299 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+299 silly install resolved     gitHead: '8c30091c83b1a41e113757148c4543ef61ff863d',
+299 silly install resolved     bugs: { url: 'https://github.com/meryn/normalize-package-data/issues' },
+299 silly install resolved     homepage: 'https://github.com/meryn/normalize-package-data',
+299 silly install resolved     _id: 'normalize-package-data@1.0.3',
+299 silly install resolved     _shasum: '8be955b8907af975f1a4584ea8bb9b41492312f5',
+299 silly install resolved     _from: 'normalize-package-data@>=1.0.0 <2.0.0',
+299 silly install resolved     _npmVersion: '2.1.0',
+299 silly install resolved     _nodeVersion: '0.10.31',
+299 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+299 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+299 silly install resolved     dist:
+299 silly install resolved      { shasum: '8be955b8907af975f1a4584ea8bb9b41492312f5',
+299 silly install resolved        tarball: 'http://registry.npmjs.org/normalize-package-data/-/normalize-package-data-1.0.3.tgz' },
+299 silly install resolved     directories: {},
+299 silly install resolved     _resolved: 'https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-1.0.3.tgz',
+299 silly install resolved     readme: 'ERROR: No README data found!' },
+299 silly install resolved   { name: 'github-url-from-username-repo',
+299 silly install resolved     version: '1.0.2',
+299 silly install resolved     description: 'Create urls from username/repo',
+299 silly install resolved     main: 'index.js',
+299 silly install resolved     scripts: { test: 'mocha -R spec' },
+299 silly install resolved     devDependencies: { mocha: '~1.13.0' },
+299 silly install resolved     repository:
+299 silly install resolved      { type: 'git',
+299 silly install resolved        url: 'git@github.com:robertkowalski/github-url-from-username-repo.git' },
+299 silly install resolved     author: { name: 'Robert Kowalski', email: 'rok@kowalski.gd' },
+299 silly install resolved     license: 'BSD-2-Clause',
+299 silly install resolved     bugs: { url: 'https://github.com/robertkowalski/github-url-from-username-repo/issues' },
+299 silly install resolved     keywords: [ 'git', 'github', 'repo' ],
+299 silly install resolved     gitHead: 'd404a13f7f04edaed0e2f068a43b81230b8c7aee',
+299 silly install resolved     homepage: 'https://github.com/robertkowalski/github-url-from-username-repo',
+299 silly install resolved     _id: 'github-url-from-username-repo@1.0.2',
+299 silly install resolved     _shasum: '7dd79330d2abe69c10c2cef79714c97215791dfa',
+299 silly install resolved     _from: 'github-url-from-username-repo@>=1.0.0 <1.1.0',
+299 silly install resolved     _npmVersion: '2.0.0-beta.2',
+299 silly install resolved     _npmUser: { name: 'othiym23', email: 'ogd@aoaioxxysz.net' },
+299 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+299 silly install resolved     dist:
+299 silly install resolved      { shasum: '7dd79330d2abe69c10c2cef79714c97215791dfa',
+299 silly install resolved        tarball: 'http://registry.npmjs.org/github-url-from-username-repo/-/github-url-from-username-repo-1.0.2.tgz' },
+299 silly install resolved     directories: {},
+299 silly install resolved     _resolved: 'https://registry.npmjs.org/github-url-from-username-repo/-/github-url-from-username-repo-1.0.2.tgz',
+299 silly install resolved     readme: 'ERROR: No README data found!' },
+299 silly install resolved   { author:
+299 silly install resolved      { name: 'Isaac Z. Schlueter',
+299 silly install resolved        email: 'i@izs.me',
+299 silly install resolved        url: 'http://blog.izs.me' },
+299 silly install resolved     name: 'graceful-fs',
+299 silly install resolved     description: 'A drop-in replacement for fs, making various improvements.',
+299 silly install resolved     version: '3.0.5',
+299 silly install resolved     repository:
+299 silly install resolved      { type: 'git',
+299 silly install resolved        url: 'git://github.com/isaacs/node-graceful-fs.git' },
+299 silly install resolved     main: 'graceful-fs.js',
+299 silly install resolved     engines: { node: '>=0.4.0' },
+299 silly install resolved     directories: { test: 'test' },
+299 silly install resolved     scripts: { test: 'tap test/*.js' },
+299 silly install resolved     keywords:
+299 silly install resolved      [ 'fs',
+299 silly install resolved        'module',
+299 silly install resolved        'reading',
+299 silly install resolved        'retry',
+299 silly install resolved        'retries',
+299 silly install resolved        'queue',
+299 silly install resolved        'error',
+299 silly install resolved        'errors',
+299 silly install resolved        'handling',
+299 silly install resolved        'EMFILE',
+299 silly install resolved        'EAGAIN',
+299 silly install resolved        'EINVAL',
+299 silly install resolved        'EPERM',
+299 silly install resolved        'EACCESS' ],
+299 silly install resolved     license: 'BSD',
+299 silly install resolved     devDependencies: { mkdirp: '^0.5.0', rimraf: '^2.2.8', tap: '^0.4.13' },
+299 silly install resolved     gitHead: 'a6cd37cff01ac3af8d0ab2fd180290538fabd326',
+299 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-graceful-fs/issues' },
+299 silly install resolved     homepage: 'https://github.com/isaacs/node-graceful-fs',
+299 silly install resolved     _id: 'graceful-fs@3.0.5',
+299 silly install resolved     _shasum: '4a880474bdeb716fe3278cf29792dec38dfac418',
+299 silly install resolved     _from: 'graceful-fs@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+299 silly install resolved     _npmVersion: '2.1.9',
+299 silly install resolved     _nodeVersion: '0.10.16',
+299 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+299 silly install resolved     maintainers: [ [Object] ],
+299 silly install resolved     dist:
+299 silly install resolved      { shasum: '4a880474bdeb716fe3278cf29792dec38dfac418',
+299 silly install resolved        tarball: 'http://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.5.tgz' },
+299 silly install resolved     _resolved: 'https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.5.tgz',
+299 silly install resolved     readme: 'ERROR: No README data found!' } ]
+300 info install lru-cache@2.5.0 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+301 info install github-url-from-git@1.4.0 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+302 info install glob@4.3.2 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+303 info install normalize-package-data@1.0.3 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+304 info install github-url-from-username-repo@1.0.2 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+305 info install graceful-fs@3.0.5 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+306 info installOne lru-cache@2.5.0
+307 verbose installOne of lru-cache to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json not in flight; installing
+308 info installOne github-url-from-git@1.4.0
+309 verbose installOne of github-url-from-git to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json not in flight; installing
+310 info installOne glob@4.3.2
+311 verbose installOne of glob to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json not in flight; installing
+312 info installOne normalize-package-data@1.0.3
+313 verbose installOne of normalize-package-data to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json not in flight; installing
+314 info installOne github-url-from-username-repo@1.0.2
+315 verbose installOne of github-url-from-username-repo to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json not in flight; installing
+316 info installOne graceful-fs@3.0.5
+317 verbose installOne of graceful-fs to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json not in flight; installing
+318 verbose lock using /Users/msartini/.npm/_locks/lru-cache-251a15a6af52c006.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+319 verbose lock using /Users/msartini/.npm/_locks/github-url-from-git-3598110309a87982.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+320 verbose lock using /Users/msartini/.npm/_locks/glob-a68eeb249e61992c.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+321 verbose lock using /Users/msartini/.npm/_locks/normalize-package-data-ef942aed52b7fd5c.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+322 verbose lock using /Users/msartini/.npm/_locks/github-url-from-username-e06f7addcc9d078c.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+323 verbose lock using /Users/msartini/.npm/_locks/graceful-fs-ffbe21f5bfb6bc04.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+324 silly install write writing lru-cache 2.5.0 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+325 silly install write writing github-url-from-git 1.4.0 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+326 silly install write writing glob 4.3.2 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+327 silly install write writing normalize-package-data 1.0.3 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+328 silly install write writing github-url-from-username-repo 1.0.2 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+329 silly install write writing graceful-fs 3.0.5 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+330 silly cache addNamed cb lru-cache@2.5.0
+331 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+332 silly cache addNamed cb github-url-from-git@1.4.0
+333 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+334 silly cache addNamed cb glob@4.3.2
+335 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+336 silly cache addNamed cb normalize-package-data@1.0.3
+337 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+338 silly cache addNamed cb github-url-from-username-repo@1.0.2
+339 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+340 silly cache addNamed cb graceful-fs@3.0.5
+341 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+342 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+343 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+344 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+345 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+346 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+347 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+348 verbose tar unpack /Users/msartini/.npm/lru-cache/2.5.0/package.tgz
+349 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+350 verbose tar unpack /Users/msartini/.npm/github-url-from-git/1.4.0/package.tgz
+351 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+352 verbose tar unpack /Users/msartini/.npm/glob/4.3.2/package.tgz
+353 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+354 verbose tar unpack /Users/msartini/.npm/normalize-package-data/1.0.3/package.tgz
+355 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+356 verbose tar unpack /Users/msartini/.npm/github-url-from-username-repo/1.0.2/package.tgz
+357 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+358 verbose tar unpack /Users/msartini/.npm/graceful-fs/3.0.5/package.tgz
+359 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+360 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+361 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+362 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+363 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+364 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+365 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+366 silly gunzTarPerm modes [ '755', '644' ]
+367 silly gunzTarPerm modes [ '755', '644' ]
+368 silly gunzTarPerm modes [ '755', '644' ]
+369 silly gunzTarPerm modes [ '755', '644' ]
+370 silly gunzTarPerm modes [ '755', '644' ]
+371 silly gunzTarPerm modes [ '755', '644' ]
+372 silly gunzTarPerm extractEntry package.json
+373 silly gunzTarPerm extractEntry package.json
+374 silly gunzTarPerm extractEntry package.json
+375 silly gunzTarPerm extractEntry package.json
+376 silly gunzTarPerm extractEntry package.json
+377 silly gunzTarPerm extractEntry package.json
+378 silly gunzTarPerm extractEntry .npmignore
+379 silly gunzTarPerm extractEntry README.md
+380 silly gunzTarPerm extractEntry .npmignore
+381 silly gunzTarPerm extractEntry LICENSE
+382 silly gunzTarPerm extractEntry README.md
+383 silly gunzTarPerm extractEntry LICENSE
+384 silly gunzTarPerm extractEntry .npmignore
+385 silly gunzTarPerm extractEntry README.md
+386 silly gunzTarPerm extractEntry .npmignore
+387 silly gunzTarPerm extractEntry README.md
+388 silly gunzTarPerm extractEntry .npmignore
+389 silly gunzTarPerm extractEntry README.md
+390 silly gunzTarPerm extractEntry LICENSE
+391 silly gunzTarPerm extractEntry CONTRIBUTORS
+392 silly gunzTarPerm extractEntry index.js
+393 silly gunzTarPerm extractEntry test.js
+394 silly gunzTarPerm extractEntry common.js
+395 silly gunzTarPerm extractEntry glob.js
+396 silly gunzTarPerm extractEntry sync.js
+397 silly gunzTarPerm extractEntry LICENSE
+398 silly gunzTarPerm extractEntry .travis.yml
+399 silly gunzTarPerm extractEntry LICENSE
+400 silly gunzTarPerm extractEntry fs.js
+401 silly gunzTarPerm extractEntry LICENSE
+402 silly gunzTarPerm extractEntry index.js
+403 silly gunzTarPerm extractEntry lib/lru-cache.js
+404 silly gunzTarPerm extractEntry test/basic.js
+405 silly gunzTarPerm extractEntry test/foreach.js
+406 silly gunzTarPerm extractEntry Makefile
+407 silly gunzTarPerm extractEntry Readme.md
+408 silly gunzTarPerm extractEntry AUTHORS
+409 silly gunzTarPerm extractEntry lib/extract_description.js
+410 silly gunzTarPerm extractEntry lib/fixer.js
+411 silly gunzTarPerm extractEntry graceful-fs.js
+412 silly gunzTarPerm extractEntry polyfills.js
+413 silly gunzTarPerm extractEntry .travis.yml
+414 silly gunzTarPerm extractEntry test/index.js
+415 silly gunzTarPerm extractEntry test/memory-leak.js
+416 silly gunzTarPerm extractEntry lib/make_warning.js
+417 silly gunzTarPerm extractEntry lib/normalize.js
+418 silly gunzTarPerm extractEntry test/max-open.js
+419 silly gunzTarPerm extractEntry test/open.js
+420 silly gunzTarPerm extractEntry lib/safe_format.js
+421 silly gunzTarPerm extractEntry lib/core_module_names.json
+422 silly gunzTarPerm extractEntry test/readdir-sort.js
+423 silly gunzTarPerm extractEntry test/write-then-read.js
+424 silly gunzTarPerm extractEntry lib/typos.json
+425 silly gunzTarPerm extractEntry lib/warning_messages.json
+426 silly gunzTarPerm extractEntry test/basic.js
+427 silly gunzTarPerm extractEntry test/consistency.js
+428 silly gunzTarPerm extractEntry test/dependencies.js
+429 silly gunzTarPerm extractEntry test/github-urls.js
+430 silly gunzTarPerm extractEntry test/normalize.js
+431 silly gunzTarPerm extractEntry test/scoped.js
+432 silly gunzTarPerm extractEntry test/strict.js
+433 info preinstall github-url-from-username-repo@1.0.2
+434 silly gunzTarPerm extractEntry test/typo.js
+435 silly gunzTarPerm extractEntry test/fixtures/no-description.json
+436 info preinstall github-url-from-git@1.4.0
+437 silly gunzTarPerm extractEntry test/fixtures/async.json
+438 silly gunzTarPerm extractEntry test/fixtures/coffee-script.json
+439 silly gunzTarPerm extractEntry test/fixtures/http-server.json
+440 silly gunzTarPerm extractEntry test/fixtures/movefile.json
+441 silly gunzTarPerm extractEntry test/fixtures/bcrypt.json
+442 silly gunzTarPerm extractEntry test/fixtures/node-module_exist.json
+443 silly gunzTarPerm extractEntry test/fixtures/npm.json
+444 silly gunzTarPerm extractEntry test/fixtures/read-package-json.json
+445 silly gunzTarPerm extractEntry test/fixtures/request.json
+446 info preinstall lru-cache@2.5.0
+447 info preinstall graceful-fs@3.0.5
+448 silly gunzTarPerm extractEntry test/fixtures/underscore.json
+449 silly install resolved []
+450 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+451 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+452 info preinstall glob@4.3.2
+453 silly install resolved []
+454 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+455 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+456 silly install resolved []
+457 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+458 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+459 silly install resolved []
+460 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+461 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+462 verbose linkStuff [ false,
+462 verbose linkStuff   false,
+462 verbose linkStuff   false,
+462 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules' ]
+463 info linkStuff github-url-from-username-repo@1.0.2
+464 verbose linkStuff [ false,
+464 verbose linkStuff   false,
+464 verbose linkStuff   false,
+464 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules' ]
+465 info linkStuff github-url-from-git@1.4.0
+466 verbose linkStuff [ false,
+466 verbose linkStuff   false,
+466 verbose linkStuff   false,
+466 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules' ]
+467 info linkStuff lru-cache@2.5.0
+468 verbose linkStuff [ false,
+468 verbose linkStuff   false,
+468 verbose linkStuff   false,
+468 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules' ]
+469 info linkStuff graceful-fs@3.0.5
+470 verbose linkBins github-url-from-username-repo@1.0.2
+471 verbose linkMans github-url-from-username-repo@1.0.2
+472 verbose rebuildBundles github-url-from-username-repo@1.0.2
+473 verbose linkBins github-url-from-git@1.4.0
+474 verbose linkMans github-url-from-git@1.4.0
+475 verbose rebuildBundles github-url-from-git@1.4.0
+476 verbose linkBins lru-cache@2.5.0
+477 verbose linkMans lru-cache@2.5.0
+478 verbose rebuildBundles lru-cache@2.5.0
+479 verbose linkBins graceful-fs@3.0.5
+480 verbose linkMans graceful-fs@3.0.5
+481 verbose rebuildBundles graceful-fs@3.0.5
+482 silly prepareForInstallMany adding inflight@^1.0.4 from glob dependencies
+483 silly prepareForInstallMany adding inherits@2 from glob dependencies
+484 silly prepareForInstallMany adding minimatch@^2.0.1 from glob dependencies
+485 silly prepareForInstallMany adding once@^1.3.0 from glob dependencies
+486 info install github-url-from-username-repo@1.0.2
+487 info install github-url-from-git@1.4.0
+488 info install lru-cache@2.5.0
+489 info install graceful-fs@3.0.5
+490 info postinstall github-url-from-username-repo@1.0.2
+491 info postinstall github-url-from-git@1.4.0
+492 info postinstall lru-cache@2.5.0
+493 info postinstall graceful-fs@3.0.5
+494 verbose unlock done using /Users/msartini/.npm/_locks/github-url-from-username-e06f7addcc9d078c.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo
+495 verbose unlock done using /Users/msartini/.npm/_locks/github-url-from-git-3598110309a87982.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git
+496 verbose unlock done using /Users/msartini/.npm/_locks/lru-cache-251a15a6af52c006.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache
+497 verbose unlock done using /Users/msartini/.npm/_locks/graceful-fs-ffbe21f5bfb6bc04.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs
+498 silly cache add args [ 'inflight@^1.0.4', null ]
+499 verbose cache add spec inflight@^1.0.4
+500 silly cache add args [ 'inherits@2', null ]
+501 verbose cache add spec inherits@2
+502 silly cache add parsed spec { raw: 'inflight@^1.0.4',
+502 silly cache add   scope: null,
+502 silly cache add   name: 'inflight',
+502 silly cache add   rawSpec: '^1.0.4',
+502 silly cache add   spec: '>=1.0.4 <2.0.0',
+502 silly cache add   type: 'range' }
+503 verbose addNamed inflight@>=1.0.4 <2.0.0
+504 silly addNamed semver.valid null
+505 silly addNamed semver.validRange >=1.0.4 <2.0.0
+506 silly addNameRange { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: false }
+507 silly mapToRegistry name inflight
+508 silly mapToRegistry using default registry
+509 silly mapToRegistry registry https://registry.npmjs.org/
+510 silly mapToRegistry uri https://registry.npmjs.org/inflight
+511 verbose addNameRange registry:https://registry.npmjs.org/inflight not in flight; fetching
+512 silly cache add parsed spec { raw: 'inherits@2',
+512 silly cache add   scope: null,
+512 silly cache add   name: 'inherits',
+512 silly cache add   rawSpec: '2',
+512 silly cache add   spec: '>=2.0.0 <3.0.0',
+512 silly cache add   type: 'range' }
+513 verbose addNamed inherits@>=2.0.0 <3.0.0
+514 silly addNamed semver.valid null
+515 silly addNamed semver.validRange >=2.0.0 <3.0.0
+516 silly addNameRange { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: false }
+517 silly mapToRegistry name inherits
+518 silly mapToRegistry using default registry
+519 silly mapToRegistry registry https://registry.npmjs.org/
+520 silly mapToRegistry uri https://registry.npmjs.org/inherits
+521 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+522 verbose request uri https://registry.npmjs.org/inflight
+523 verbose request no auth needed
+524 info attempt registry request try #1 at 15:12:26
+525 verbose etag "DT4F6UXJTF8B382AUCXA4O2BK"
+526 http request GET https://registry.npmjs.org/inflight
+527 verbose request uri https://registry.npmjs.org/inherits
+528 verbose request no auth needed
+529 info attempt registry request try #1 at 15:12:26
+530 verbose etag "9QY38ZTAA040M0IB8DZOWK7DH"
+531 http request GET https://registry.npmjs.org/inherits
+532 silly cache add args [ 'minimatch@^2.0.1', null ]
+533 verbose cache add spec minimatch@^2.0.1
+534 silly cache add args [ 'once@^1.3.0', null ]
+535 verbose cache add spec once@^1.3.0
+536 silly cache add parsed spec { raw: 'minimatch@^2.0.1',
+536 silly cache add   scope: null,
+536 silly cache add   name: 'minimatch',
+536 silly cache add   rawSpec: '^2.0.1',
+536 silly cache add   spec: '>=2.0.1 <3.0.0',
+536 silly cache add   type: 'range' }
+537 verbose addNamed minimatch@>=2.0.1 <3.0.0
+538 silly addNamed semver.valid null
+539 silly addNamed semver.validRange >=2.0.1 <3.0.0
+540 silly addNameRange { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: false }
+541 silly mapToRegistry name minimatch
+542 silly mapToRegistry using default registry
+543 silly mapToRegistry registry https://registry.npmjs.org/
+544 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+545 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+546 silly cache add parsed spec { raw: 'once@^1.3.0',
+546 silly cache add   scope: null,
+546 silly cache add   name: 'once',
+546 silly cache add   rawSpec: '^1.3.0',
+546 silly cache add   spec: '>=1.3.0 <2.0.0',
+546 silly cache add   type: 'range' }
+547 verbose addNamed once@>=1.3.0 <2.0.0
+548 silly addNamed semver.valid null
+549 silly addNamed semver.validRange >=1.3.0 <2.0.0
+550 silly addNameRange { name: 'once', range: '>=1.3.0 <2.0.0', hasData: false }
+551 silly mapToRegistry name once
+552 silly mapToRegistry using default registry
+553 silly mapToRegistry registry https://registry.npmjs.org/
+554 silly mapToRegistry uri https://registry.npmjs.org/once
+555 verbose addNameRange registry:https://registry.npmjs.org/once not in flight; fetching
+556 verbose request uri https://registry.npmjs.org/minimatch
+557 verbose request no auth needed
+558 info attempt registry request try #1 at 15:12:26
+559 verbose etag "6RAFQUO1Q3A7GTG25N34H7NUT"
+560 http request GET https://registry.npmjs.org/minimatch
+561 verbose request uri https://registry.npmjs.org/once
+562 verbose request no auth needed
+563 info attempt registry request try #1 at 15:12:26
+564 verbose etag "Y6HMSCYOJMGAZF2UNWWCBLSR"
+565 http request GET https://registry.npmjs.org/once
+566 info preinstall normalize-package-data@1.0.3
+567 silly prepareForInstallMany adding semver@2 || 3 || 4 from normalize-package-data dependencies
+568 silly cache add args [ 'semver@2 || 3 || 4', null ]
+569 verbose cache add spec semver@2 || 3 || 4
+570 silly cache add parsed spec { raw: 'semver@2 || 3 || 4',
+570 silly cache add   scope: null,
+570 silly cache add   name: 'semver',
+570 silly cache add   rawSpec: '2 || 3 || 4',
+570 silly cache add   spec: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+570 silly cache add   type: 'range' }
+571 verbose addNamed semver@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0
+572 silly addNamed semver.valid null
+573 silly addNamed semver.validRange >=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0
+574 silly addNameRange { name: 'semver',
+574 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+574 silly addNameRange   hasData: false }
+575 silly mapToRegistry name semver
+576 silly mapToRegistry using default registry
+577 silly mapToRegistry registry https://registry.npmjs.org/
+578 silly mapToRegistry uri https://registry.npmjs.org/semver
+579 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+580 verbose request uri https://registry.npmjs.org/semver
+581 verbose request no auth needed
+582 info attempt registry request try #1 at 15:12:26
+583 verbose etag "EV128DOQT3IMCL0DJBQWFXHNH"
+584 http request GET https://registry.npmjs.org/semver
+585 http 304 https://registry.npmjs.org/inherits
+586 silly get cb [ 304,
+586 silly get   { date: 'Wed, 24 Dec 2014 17:12:27 GMT',
+586 silly get     server: 'Apache',
+586 silly get     via: '1.1 varnish',
+586 silly get     'last-modified': 'Wed, 24 Dec 2014 17:11:57 GMT',
+586 silly get     'cache-control': 'max-age=60',
+586 silly get     etag: '"9QY38ZTAA040M0IB8DZOWK7DH"',
+586 silly get     age: '46',
+586 silly get     'x-served-by': 'cache-atl6227-ATL',
+586 silly get     'x-cache': 'HIT',
+586 silly get     'x-cache-hits': '2',
+586 silly get     'x-timer': 'S1419441147.183920,VS0,VE0',
+586 silly get     vary: 'Accept',
+586 silly get     'content-length': '0',
+586 silly get     'keep-alive': 'timeout=10, max=50',
+586 silly get     connection: 'Keep-Alive' } ]
+587 verbose etag https://registry.npmjs.org/inherits from cache
+588 http 304 https://registry.npmjs.org/inflight
+589 silly get cb [ 304,
+589 silly get   { date: 'Wed, 24 Dec 2014 17:12:27 GMT',
+589 silly get     server: 'Apache',
+589 silly get     via: '1.1 varnish',
+589 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:27 GMT',
+589 silly get     'cache-control': 'max-age=60',
+589 silly get     etag: '"DT4F6UXJTF8B382AUCXA4O2BK"',
+589 silly get     age: '22',
+589 silly get     'x-served-by': 'cache-atl6220-ATL',
+589 silly get     'x-cache': 'HIT',
+589 silly get     'x-cache-hits': '1',
+589 silly get     'x-timer': 'S1419441147.184968,VS0,VE1',
+589 silly get     vary: 'Accept',
+589 silly get     'content-length': '0',
+589 silly get     'keep-alive': 'timeout=10, max=50',
+589 silly get     connection: 'Keep-Alive' } ]
+590 verbose etag https://registry.npmjs.org/inflight from cache
+591 http 304 https://registry.npmjs.org/once
+592 silly get cb [ 304,
+592 silly get   { date: 'Wed, 24 Dec 2014 17:12:27 GMT',
+592 silly get     server: 'Apache',
+592 silly get     via: '1.1 varnish',
+592 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:27 GMT',
+592 silly get     'cache-control': 'max-age=60',
+592 silly get     etag: '"Y6HMSCYOJMGAZF2UNWWCBLSR"',
+592 silly get     age: '38',
+592 silly get     'x-served-by': 'cache-atl6221-ATL',
+592 silly get     'x-cache': 'HIT',
+592 silly get     'x-cache-hits': '1',
+592 silly get     'x-timer': 'S1419441147.185645,VS0,VE1',
+592 silly get     vary: 'Accept',
+592 silly get     'content-length': '0',
+592 silly get     'keep-alive': 'timeout=10, max=50',
+592 silly get     connection: 'Keep-Alive' } ]
+593 verbose etag https://registry.npmjs.org/once from cache
+594 silly addNameRange number 2 { name: 'once', range: '>=1.3.0 <2.0.0', hasData: true }
+595 silly addNameRange versions [ 'once', [ '1.1.1', '1.2.0', '1.3.0', '1.3.1' ] ]
+596 verbose addNamed once@1.3.1
+597 silly addNamed semver.valid 1.3.1
+598 silly addNamed semver.validRange 1.3.1
+599 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: true }
+600 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+601 verbose addNamed inherits@2.0.1
+602 silly addNamed semver.valid 2.0.1
+603 silly addNamed semver.validRange 2.0.1
+604 silly addNameRange number 2 { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: true }
+605 silly addNameRange versions [ 'inflight', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4' ] ]
+606 verbose addNamed inflight@1.0.4
+607 silly addNamed semver.valid 1.0.4
+608 silly addNamed semver.validRange 1.0.4
+609 silly cache afterAdd once@1.3.1
+610 verbose afterAdd /Users/msartini/.npm/once/1.3.1/package/package.json not in flight; writing
+611 silly cache afterAdd inherits@2.0.1
+612 verbose afterAdd /Users/msartini/.npm/inherits/2.0.1/package/package.json not in flight; writing
+613 silly cache afterAdd inflight@1.0.4
+614 verbose afterAdd /Users/msartini/.npm/inflight/1.0.4/package/package.json not in flight; writing
+615 verbose afterAdd /Users/msartini/.npm/inherits/2.0.1/package/package.json written
+616 verbose afterAdd /Users/msartini/.npm/inflight/1.0.4/package/package.json written
+617 verbose afterAdd /Users/msartini/.npm/once/1.3.1/package/package.json written
+618 http 304 https://registry.npmjs.org/minimatch
+619 silly get cb [ 304,
+619 silly get   { date: 'Wed, 24 Dec 2014 17:12:27 GMT',
+619 silly get     server: 'Apache',
+619 silly get     via: '1.1 varnish',
+619 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:27 GMT',
+619 silly get     'cache-control': 'max-age=60',
+619 silly get     etag: '"6RAFQUO1Q3A7GTG25N34H7NUT"',
+619 silly get     age: '8',
+619 silly get     'x-served-by': 'cache-atl6221-ATL',
+619 silly get     'x-cache': 'HIT',
+619 silly get     'x-cache-hits': '1',
+619 silly get     'x-timer': 'S1419441147.201357,VS0,VE0',
+619 silly get     vary: 'Accept',
+619 silly get     'content-length': '0',
+619 silly get     'keep-alive': 'timeout=10, max=50',
+619 silly get     connection: 'Keep-Alive' } ]
+620 verbose etag https://registry.npmjs.org/minimatch from cache
+621 http 304 https://registry.npmjs.org/semver
+622 silly get cb [ 304,
+622 silly get   { date: 'Wed, 24 Dec 2014 17:12:27 GMT',
+622 silly get     server: 'Apache',
+622 silly get     via: '1.1 varnish',
+622 silly get     'last-modified': 'Wed, 24 Dec 2014 17:11:55 GMT',
+622 silly get     'cache-control': 'max-age=60',
+622 silly get     etag: '"EV128DOQT3IMCL0DJBQWFXHNH"',
+622 silly get     age: '31',
+622 silly get     'x-served-by': 'cache-atl6232-ATL',
+622 silly get     'x-cache': 'HIT',
+622 silly get     'x-cache-hits': '2',
+622 silly get     'x-timer': 'S1419441147.199707,VS0,VE0',
+622 silly get     vary: 'Accept',
+622 silly get     'content-length': '0',
+622 silly get     'keep-alive': 'timeout=10, max=50',
+622 silly get     connection: 'Keep-Alive' } ]
+623 verbose etag https://registry.npmjs.org/semver from cache
+624 silly addNameRange number 2 { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: true }
+625 silly addNameRange versions [ 'minimatch',
+625 silly addNameRange   [ '0.0.1',
+625 silly addNameRange     '0.0.2',
+625 silly addNameRange     '0.0.4',
+625 silly addNameRange     '0.0.5',
+625 silly addNameRange     '0.1.1',
+625 silly addNameRange     '0.1.2',
+625 silly addNameRange     '0.1.3',
+625 silly addNameRange     '0.1.4',
+625 silly addNameRange     '0.1.5',
+625 silly addNameRange     '0.2.0',
+625 silly addNameRange     '0.2.2',
+625 silly addNameRange     '0.2.3',
+625 silly addNameRange     '0.2.4',
+625 silly addNameRange     '0.2.5',
+625 silly addNameRange     '0.2.6',
+625 silly addNameRange     '0.2.7',
+625 silly addNameRange     '0.2.8',
+625 silly addNameRange     '0.2.9',
+625 silly addNameRange     '0.2.10',
+625 silly addNameRange     '0.2.11',
+625 silly addNameRange     '0.2.12',
+625 silly addNameRange     '0.2.13',
+625 silly addNameRange     '0.2.14',
+625 silly addNameRange     '0.3.0',
+625 silly addNameRange     '0.4.0',
+625 silly addNameRange     '1.0.0',
+625 silly addNameRange     '2.0.0',
+625 silly addNameRange     '2.0.1' ] ]
+626 verbose addNamed minimatch@2.0.1
+627 silly addNamed semver.valid 2.0.1
+628 silly addNamed semver.validRange 2.0.1
+629 silly addNameRange number 2 { name: 'semver',
+629 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+629 silly addNameRange   hasData: true }
+630 silly addNameRange versions [ 'semver',
+630 silly addNameRange   [ '1.0.0',
+630 silly addNameRange     '1.0.1',
+630 silly addNameRange     '1.0.2',
+630 silly addNameRange     '1.0.3',
+630 silly addNameRange     '1.0.4',
+630 silly addNameRange     '1.0.5',
+630 silly addNameRange     '1.0.6',
+630 silly addNameRange     '1.0.7',
+630 silly addNameRange     '1.0.8',
+630 silly addNameRange     '1.0.9',
+630 silly addNameRange     '1.0.10',
+630 silly addNameRange     '1.0.11',
+630 silly addNameRange     '1.0.12',
+630 silly addNameRange     '1.0.13',
+630 silly addNameRange     '1.0.14',
+630 silly addNameRange     '1.1.0',
+630 silly addNameRange     '1.1.1',
+630 silly addNameRange     '1.1.2',
+630 silly addNameRange     '1.1.3',
+630 silly addNameRange     '1.1.4',
+630 silly addNameRange     '2.0.0-alpha',
+630 silly addNameRange     '2.0.0-beta',
+630 silly addNameRange     '2.0.1',
+630 silly addNameRange     '2.0.2',
+630 silly addNameRange     '2.0.3',
+630 silly addNameRange     '2.0.4',
+630 silly addNameRange     '2.0.5',
+630 silly addNameRange     '2.0.6',
+630 silly addNameRange     '2.0.7',
+630 silly addNameRange     '2.0.8',
+630 silly addNameRange     '2.0.9',
+630 silly addNameRange     '2.0.10',
+630 silly addNameRange     '2.0.11',
+630 silly addNameRange     '2.1.0',
+630 silly addNameRange     '2.2.0',
+630 silly addNameRange     '2.2.1',
+630 silly addNameRange     '2.3.0',
+630 silly addNameRange     '2.3.1',
+630 silly addNameRange     '2.3.2',
+630 silly addNameRange     '3.0.0',
+630 silly addNameRange     '3.0.1',
+630 silly addNameRange     '4.0.0',
+630 silly addNameRange     '4.0.2',
+630 silly addNameRange     '4.0.3',
+630 silly addNameRange     '4.1.0',
+630 silly addNameRange     '4.1.1',
+630 silly addNameRange     '4.2.0' ] ]
+631 verbose addNamed semver@4.2.0
+632 silly addNamed semver.valid 4.2.0
+633 silly addNamed semver.validRange 4.2.0
+634 silly cache afterAdd minimatch@2.0.1
+635 verbose afterAdd /Users/msartini/.npm/minimatch/2.0.1/package/package.json not in flight; writing
+636 silly cache afterAdd semver@4.2.0
+637 verbose afterAdd /Users/msartini/.npm/semver/4.2.0/package/package.json not in flight; writing
+638 verbose afterAdd /Users/msartini/.npm/semver/4.2.0/package/package.json written
+639 silly install resolved [ { name: 'semver',
+639 silly install resolved     version: '4.2.0',
+639 silly install resolved     description: 'The semantic version parser used by npm.',
+639 silly install resolved     main: 'semver.js',
+639 silly install resolved     browser: 'semver.browser.js',
+639 silly install resolved     min: 'semver.min.js',
+639 silly install resolved     scripts: { test: 'tap test/*.js', prepublish: 'make' },
+639 silly install resolved     devDependencies: { tap: '0.x >=0.0.4', 'uglify-js': '~2.3.6' },
+639 silly install resolved     license: 'BSD',
+639 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+639 silly install resolved     bin: { semver: './bin/semver' },
+639 silly install resolved     gitHead: 'f353d3337dd9bef990b6873e281342260b4e63ae',
+639 silly install resolved     bugs: { url: 'https://github.com/isaacs/node-semver/issues' },
+639 silly install resolved     homepage: 'https://github.com/isaacs/node-semver',
+639 silly install resolved     _id: 'semver@4.2.0',
+639 silly install resolved     _shasum: 'a571fd4adbe974fe32bd9cb4c5e249606f498423',
+639 silly install resolved     _from: 'semver@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+639 silly install resolved     _npmVersion: '2.1.14',
+639 silly install resolved     _nodeVersion: '0.10.33',
+639 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+639 silly install resolved     maintainers: [ [Object], [Object] ],
+639 silly install resolved     dist:
+639 silly install resolved      { shasum: 'a571fd4adbe974fe32bd9cb4c5e249606f498423',
+639 silly install resolved        tarball: 'http://registry.npmjs.org/semver/-/semver-4.2.0.tgz' },
+639 silly install resolved     directories: {},
+639 silly install resolved     _resolved: 'https://registry.npmjs.org/semver/-/semver-4.2.0.tgz',
+639 silly install resolved     readme: 'ERROR: No README data found!' } ]
+640 info install semver@4.2.0 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+641 info installOne semver@4.2.0
+642 verbose installOne of semver to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data not in flight; installing
+643 verbose afterAdd /Users/msartini/.npm/minimatch/2.0.1/package/package.json written
+644 silly install resolved [ { name: 'inherits',
+644 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+644 silly install resolved     version: '2.0.1',
+644 silly install resolved     keywords:
+644 silly install resolved      [ 'inheritance',
+644 silly install resolved        'class',
+644 silly install resolved        'klass',
+644 silly install resolved        'oop',
+644 silly install resolved        'object-oriented',
+644 silly install resolved        'inherits',
+644 silly install resolved        'browser',
+644 silly install resolved        'browserify' ],
+644 silly install resolved     main: './inherits.js',
+644 silly install resolved     browser: './inherits_browser.js',
+644 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits' },
+644 silly install resolved     license: 'ISC',
+644 silly install resolved     scripts: { test: 'node test' },
+644 silly install resolved     readme: 'Browser-friendly inheritance fully compatible with standard node.js\n[inherits](http://nodejs.org/api/util.html#util_util_inherits_constructor_superconstructor).\n\nThis package exports standard `inherits` from node.js `util` module in\nnode environment, but also provides alternative browser-friendly\nimplementation through [browser\nfield](https://gist.github.com/shtylman/4339901). Alternative\nimplementation is a literal copy of standard one located in standalone\nmodule to avoid requiring of `util`. It also has a shim for old\nbrowsers with no `Object.create` support.\n\nWhile keeping you sure you are using standard `inherits`\nimplementation in node.js environment, it allows bundlers such as\n[browserify](https://github.com/substack/node-browserify) to not\ninclude full `util` package to your client code if all you need is\njust `inherits` function. It worth, because browser shim for `util`\npackage is large and `inherits` is often the single function you need\nfrom it.\n\nIt\'s recommended to use this package instead of\n`require(\'util\').inherits` for any code that has chances to be used\nnot only in node.js but in browser too.\n\n## usage\n\n```js\nvar inherits = require(\'inherits\');\n// then use exactly as the standard one\n```\n\n## note on version ~1.0\n\nVersion ~1.0 had completely different motivation and is not compatible\nneither with 2.0 nor with standard node.js `inherits`.\n\nIf you are using version ~1.0 and planning to switch to ~2.0, be\ncareful:\n\n* new version uses `super_` instead of `super` for referencing\n  superclass\n* new version overwrites current prototype while old one preserves any\n  existing fields on it\n',
+644 silly install resolved     readmeFilename: 'README.md',
+644 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+644 silly install resolved     homepage: 'https://github.com/isaacs/inherits',
+644 silly install resolved     _id: 'inherits@2.0.1',
+644 silly install resolved     _from: 'inherits@>=2.0.0 <3.0.0' },
+644 silly install resolved   { name: 'inflight',
+644 silly install resolved     version: '1.0.4',
+644 silly install resolved     description: 'Add callbacks to requests in flight to avoid async duplication',
+644 silly install resolved     main: 'inflight.js',
+644 silly install resolved     dependencies: { once: '^1.3.0', wrappy: '1' },
+644 silly install resolved     devDependencies: { tap: '^0.4.10' },
+644 silly install resolved     scripts: { test: 'tap test.js' },
+644 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inflight' },
+644 silly install resolved     author:
+644 silly install resolved      { name: 'Isaac Z. Schlueter',
+644 silly install resolved        email: 'i@izs.me',
+644 silly install resolved        url: 'http://blog.izs.me/' },
+644 silly install resolved     bugs: { url: 'https://github.com/isaacs/inflight/issues' },
+644 silly install resolved     homepage: 'https://github.com/isaacs/inflight',
+644 silly install resolved     license: 'ISC',
+644 silly install resolved     gitHead: 'c7b5531d572a867064d4a1da9e013e8910b7d1ba',
+644 silly install resolved     _id: 'inflight@1.0.4',
+644 silly install resolved     _shasum: '6cbb4521ebd51ce0ec0a936bfd7657ef7e9b172a',
+644 silly install resolved     _from: 'inflight@>=1.0.4 <2.0.0',
+644 silly install resolved     _npmVersion: '2.1.3',
+644 silly install resolved     _nodeVersion: '0.10.32',
+644 silly install resolved     _npmUser: { name: 'othiym23', email: 'ogd@aoaioxxysz.net' },
+644 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+644 silly install resolved     dist:
+644 silly install resolved      { shasum: '6cbb4521ebd51ce0ec0a936bfd7657ef7e9b172a',
+644 silly install resolved        tarball: 'http://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz' },
+644 silly install resolved     directories: {},
+644 silly install resolved     _resolved: 'https://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz',
+644 silly install resolved     readme: 'ERROR: No README data found!' },
+644 silly install resolved   { name: 'once',
+644 silly install resolved     version: '1.3.1',
+644 silly install resolved     description: 'Run a function exactly one time',
+644 silly install resolved     main: 'once.js',
+644 silly install resolved     directories: { test: 'test' },
+644 silly install resolved     dependencies: { wrappy: '1' },
+644 silly install resolved     devDependencies: { tap: '~0.3.0' },
+644 silly install resolved     scripts: { test: 'tap test/*.js' },
+644 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/once' },
+644 silly install resolved     keywords: [ 'once', 'function', 'one', 'single' ],
+644 silly install resolved     author:
+644 silly install resolved      { name: 'Isaac Z. Schlueter',
+644 silly install resolved        email: 'i@izs.me',
+644 silly install resolved        url: 'http://blog.izs.me/' },
+644 silly install resolved     license: 'BSD',
+644 silly install resolved     gitHead: 'c90ac02a74f433ce47f6938869e68dd6196ffc2c',
+644 silly install resolved     bugs: { url: 'https://github.com/isaacs/once/issues' },
+644 silly install resolved     homepage: 'https://github.com/isaacs/once',
+644 silly install resolved     _id: 'once@1.3.1',
+644 silly install resolved     _shasum: 'f3f3e4da5b7d27b5c732969ee3e67e729457b31f',
+644 silly install resolved     _from: 'once@>=1.3.0 <2.0.0',
+644 silly install resolved     _npmVersion: '2.0.0',
+644 silly install resolved     _nodeVersion: '0.10.31',
+644 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+644 silly install resolved     maintainers: [ [Object] ],
+644 silly install resolved     dist:
+644 silly install resolved      { shasum: 'f3f3e4da5b7d27b5c732969ee3e67e729457b31f',
+644 silly install resolved        tarball: 'http://registry.npmjs.org/once/-/once-1.3.1.tgz' },
+644 silly install resolved     _resolved: 'https://registry.npmjs.org/once/-/once-1.3.1.tgz',
+644 silly install resolved     readme: 'ERROR: No README data found!' },
+644 silly install resolved   { author:
+644 silly install resolved      { name: 'Isaac Z. Schlueter',
+644 silly install resolved        email: 'i@izs.me',
+644 silly install resolved        url: 'http://blog.izs.me' },
+644 silly install resolved     name: 'minimatch',
+644 silly install resolved     description: 'a glob matcher in javascript',
+644 silly install resolved     version: '2.0.1',
+644 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+644 silly install resolved     main: 'minimatch.js',
+644 silly install resolved     scripts:
+644 silly install resolved      { test: 'tap test/*.js',
+644 silly install resolved        prepublish: 'browserify -o browser.js -e minimatch.js' },
+644 silly install resolved     engines: { node: '*' },
+644 silly install resolved     dependencies: { 'brace-expansion': '^1.0.0' },
+644 silly install resolved     devDependencies: { browserify: '^6.3.3', tap: '' },
+644 silly install resolved     license:
+644 silly install resolved      { type: 'MIT',
+644 silly install resolved        url: 'http://github.com/isaacs/minimatch/raw/master/LICENSE' },
+644 silly install resolved     gitHead: 'eac219d8f665c8043fda9a1cd34eab9b006fae01',
+644 silly install resolved     bugs: { url: 'https://github.com/isaacs/minimatch/issues' },
+644 silly install resolved     homepage: 'https://github.com/isaacs/minimatch',
+644 silly install resolved     _id: 'minimatch@2.0.1',
+644 silly install resolved     _shasum: '6c3760b45f66ed1cd5803143ee8d372488f02c37',
+644 silly install resolved     _from: 'minimatch@>=2.0.1 <3.0.0',
+644 silly install resolved     _npmVersion: '2.1.11',
+644 silly install resolved     _nodeVersion: '0.10.16',
+644 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+644 silly install resolved     maintainers: [ [Object] ],
+644 silly install resolved     dist:
+644 silly install resolved      { shasum: '6c3760b45f66ed1cd5803143ee8d372488f02c37',
+644 silly install resolved        tarball: 'http://registry.npmjs.org/minimatch/-/minimatch-2.0.1.tgz' },
+644 silly install resolved     directories: {},
+644 silly install resolved     _resolved: 'https://registry.npmjs.org/minimatch/-/minimatch-2.0.1.tgz',
+644 silly install resolved     readme: 'ERROR: No README data found!' } ]
+645 info install inherits@2.0.1 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+646 info install inflight@1.0.4 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+647 info install once@1.3.1 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+648 info install minimatch@2.0.1 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+649 info installOne inherits@2.0.1
+650 verbose installOne of inherits to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob not in flight; installing
+651 info installOne inflight@1.0.4
+652 verbose installOne of inflight to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob not in flight; installing
+653 info installOne once@1.3.1
+654 verbose installOne of once to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob not in flight; installing
+655 info installOne minimatch@2.0.1
+656 verbose installOne of minimatch to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob not in flight; installing
+657 verbose lock using /Users/msartini/.npm/_locks/semver-02afc6427adabc3b.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+658 verbose lock using /Users/msartini/.npm/_locks/inherits-1119679182977ca9.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+659 verbose lock using /Users/msartini/.npm/_locks/inflight-c51cbd398606a6fc.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+660 verbose lock using /Users/msartini/.npm/_locks/once-d81411ffb3999182.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+661 silly install write writing semver 4.2.0 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+662 silly install write writing inherits 2.0.1 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+663 silly install write writing inflight 1.0.4 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+664 verbose lock using /Users/msartini/.npm/_locks/minimatch-82081f82a4f70ddb.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+665 silly install write writing once 1.3.1 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+666 silly install write writing minimatch 2.0.1 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+667 silly cache addNamed cb semver@4.2.0
+668 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+669 silly cache addNamed cb inherits@2.0.1
+670 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+671 silly cache addNamed cb inflight@1.0.4
+672 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+673 silly cache addNamed cb once@1.3.1
+674 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+675 silly cache addNamed cb minimatch@2.0.1
+676 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+677 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+678 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+679 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+680 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+681 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+682 verbose tar unpack /Users/msartini/.npm/semver/4.2.0/package.tgz
+683 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+684 verbose tar unpack /Users/msartini/.npm/inherits/2.0.1/package.tgz
+685 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+686 verbose tar unpack /Users/msartini/.npm/inflight/1.0.4/package.tgz
+687 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+688 verbose tar unpack /Users/msartini/.npm/once/1.3.1/package.tgz
+689 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+690 verbose tar unpack /Users/msartini/.npm/minimatch/2.0.1/package.tgz
+691 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+692 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+693 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+694 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+695 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+696 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+697 silly gunzTarPerm modes [ '755', '644' ]
+698 silly gunzTarPerm modes [ '755', '644' ]
+699 silly gunzTarPerm modes [ '755', '644' ]
+700 silly gunzTarPerm modes [ '755', '644' ]
+701 silly gunzTarPerm modes [ '755', '644' ]
+702 silly gunzTarPerm extractEntry package.json
+703 silly gunzTarPerm extractEntry package.json
+704 silly gunzTarPerm extractEntry package.json
+705 silly gunzTarPerm extractEntry package.json
+706 silly gunzTarPerm extractEntry package.json
+707 silly gunzTarPerm extractEntry .npmignore
+708 silly gunzTarPerm extractEntry README.md
+709 silly gunzTarPerm extractEntry README.md
+710 silly gunzTarPerm extractEntry LICENSE
+711 silly gunzTarPerm extractEntry README.md
+712 silly gunzTarPerm extractEntry LICENSE
+713 silly gunzTarPerm extractEntry README.md
+714 silly gunzTarPerm extractEntry LICENSE
+715 silly gunzTarPerm extractEntry .npmignore
+716 silly gunzTarPerm extractEntry README.md
+717 silly gunzTarPerm extractEntry LICENSE
+718 silly gunzTarPerm extractEntry semver.browser.js
+719 silly gunzTarPerm extractEntry inherits.js
+720 silly gunzTarPerm extractEntry inherits_browser.js
+721 silly gunzTarPerm extractEntry inflight.js
+722 silly gunzTarPerm extractEntry test.js
+723 silly gunzTarPerm extractEntry once.js
+724 silly gunzTarPerm extractEntry test/once.js
+725 silly gunzTarPerm extractEntry LICENSE
+726 silly gunzTarPerm extractEntry benchmark.js
+727 silly gunzTarPerm extractEntry semver.js
+728 silly gunzTarPerm extractEntry semver.min.js
+729 silly gunzTarPerm extractEntry Makefile
+730 silly gunzTarPerm extractEntry test.js
+731 silly gunzTarPerm extractEntry browser.js
+732 silly gunzTarPerm extractEntry minimatch.js
+733 silly gunzTarPerm extractEntry .travis.yml
+734 silly gunzTarPerm extractEntry .eslintrc
+735 silly gunzTarPerm extractEntry test/amd.js
+736 silly gunzTarPerm extractEntry test/basic.js
+737 silly gunzTarPerm extractEntry test/clean.js
+738 silly gunzTarPerm extractEntry test/brace-expand.js
+739 silly gunzTarPerm extractEntry test/gtr.js
+740 silly gunzTarPerm extractEntry test/index.js
+741 silly gunzTarPerm extractEntry test/ltr.js
+742 silly gunzTarPerm extractEntry test/defaults.js
+743 silly gunzTarPerm extractEntry test/extglob-ending-with-state-char.js
+744 silly gunzTarPerm extractEntry test/no-module.js
+745 silly gunzTarPerm extractEntry bin/semver
+746 silly gunzTarPerm extractEntry semver.browser.js.gz
+747 silly gunzTarPerm extractEntry foot.js.txt
+748 silly gunzTarPerm extractEntry head.js.txt
+749 info preinstall once@1.3.1
+750 silly gunzTarPerm extractEntry semver.min.js.gz
+751 info preinstall inherits@2.0.1
+752 info preinstall inflight@1.0.4
+753 silly prepareForInstallMany adding wrappy@1 from once dependencies
+754 silly prepareForInstallMany adding wrappy@1 from inflight dependencies
+755 silly install resolved []
+756 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+757 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+758 verbose linkStuff [ false,
+758 verbose linkStuff   false,
+758 verbose linkStuff   false,
+758 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules' ]
+759 info linkStuff inherits@2.0.1
+760 silly cache add args [ 'wrappy@1', null ]
+761 verbose cache add spec wrappy@1
+762 silly cache add args [ 'wrappy@1', null ]
+763 verbose cache add spec wrappy@1
+764 verbose linkBins inherits@2.0.1
+765 verbose linkMans inherits@2.0.1
+766 verbose rebuildBundles inherits@2.0.1
+767 silly cache add parsed spec { raw: 'wrappy@1',
+767 silly cache add   scope: null,
+767 silly cache add   name: 'wrappy',
+767 silly cache add   rawSpec: '1',
+767 silly cache add   spec: '>=1.0.0 <2.0.0',
+767 silly cache add   type: 'range' }
+768 verbose addNamed wrappy@>=1.0.0 <2.0.0
+769 silly addNamed semver.valid null
+770 silly addNamed semver.validRange >=1.0.0 <2.0.0
+771 silly addNameRange { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: false }
+772 silly mapToRegistry name wrappy
+773 silly mapToRegistry using default registry
+774 silly mapToRegistry registry https://registry.npmjs.org/
+775 silly mapToRegistry uri https://registry.npmjs.org/wrappy
+776 verbose addNameRange registry:https://registry.npmjs.org/wrappy not in flight; fetching
+777 silly cache add parsed spec { raw: 'wrappy@1',
+777 silly cache add   scope: null,
+777 silly cache add   name: 'wrappy',
+777 silly cache add   rawSpec: '1',
+777 silly cache add   spec: '>=1.0.0 <2.0.0',
+777 silly cache add   type: 'range' }
+778 verbose addNamed wrappy@>=1.0.0 <2.0.0
+779 silly addNamed semver.valid null
+780 silly addNamed semver.validRange >=1.0.0 <2.0.0
+781 silly addNameRange { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: false }
+782 silly mapToRegistry name wrappy
+783 silly mapToRegistry using default registry
+784 silly mapToRegistry registry https://registry.npmjs.org/
+785 silly mapToRegistry uri https://registry.npmjs.org/wrappy
+786 verbose addNameRange registry:https://registry.npmjs.org/wrappy already in flight; waiting
+787 info install inherits@2.0.1
+788 info postinstall inherits@2.0.1
+789 verbose request uri https://registry.npmjs.org/wrappy
+790 verbose request no auth needed
+791 info attempt registry request try #1 at 15:12:27
+792 verbose etag "1RF5P2YZZNRM3V1SS1JQ4SIFO"
+793 http request GET https://registry.npmjs.org/wrappy
+794 verbose unlock done using /Users/msartini/.npm/_locks/inherits-1119679182977ca9.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inherits
+795 info preinstall minimatch@2.0.1
+796 silly prepareForInstallMany adding brace-expansion@^1.0.0 from minimatch dependencies
+797 silly cache add args [ 'brace-expansion@^1.0.0', null ]
+798 verbose cache add spec brace-expansion@^1.0.0
+799 silly cache add parsed spec { raw: 'brace-expansion@^1.0.0',
+799 silly cache add   scope: null,
+799 silly cache add   name: 'brace-expansion',
+799 silly cache add   rawSpec: '^1.0.0',
+799 silly cache add   spec: '>=1.0.0 <2.0.0',
+799 silly cache add   type: 'range' }
+800 verbose addNamed brace-expansion@>=1.0.0 <2.0.0
+801 silly addNamed semver.valid null
+802 silly addNamed semver.validRange >=1.0.0 <2.0.0
+803 silly addNameRange { name: 'brace-expansion',
+803 silly addNameRange   range: '>=1.0.0 <2.0.0',
+803 silly addNameRange   hasData: false }
+804 silly mapToRegistry name brace-expansion
+805 silly mapToRegistry using default registry
+806 silly mapToRegistry registry https://registry.npmjs.org/
+807 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+808 verbose addNameRange registry:https://registry.npmjs.org/brace-expansion not in flight; fetching
+809 verbose request uri https://registry.npmjs.org/brace-expansion
+810 verbose request no auth needed
+811 info attempt registry request try #1 at 15:12:27
+812 verbose etag "92DYK38Y5XPPP069JBP83OEYP"
+813 http request GET https://registry.npmjs.org/brace-expansion
+814 info preinstall semver@4.2.0
+815 silly install resolved []
+816 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+817 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+818 verbose linkStuff [ false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules' ]
+819 info linkStuff semver@4.2.0
+820 verbose linkBins semver@4.2.0
+821 verbose link bins [ { semver: './bin/semver' },
+821 verbose link bins   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/.bin',
+821 verbose link bins   false ]
+822 verbose linkMans semver@4.2.0
+823 verbose rebuildBundles semver@4.2.0
+824 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/.bin/semver
+825 info install semver@4.2.0
+826 info postinstall semver@4.2.0
+827 verbose unlock done using /Users/msartini/.npm/_locks/semver-02afc6427adabc3b.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver
+828 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+829 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+830 verbose linkStuff [ false,
+830 verbose linkStuff   false,
+830 verbose linkStuff   false,
+830 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules' ]
+831 info linkStuff normalize-package-data@1.0.3
+832 verbose linkBins normalize-package-data@1.0.3
+833 verbose linkMans normalize-package-data@1.0.3
+834 verbose rebuildBundles normalize-package-data@1.0.3
+835 verbose rebuildBundles [ '.bin', 'semver' ]
+836 info install normalize-package-data@1.0.3
+837 info postinstall normalize-package-data@1.0.3
+838 verbose unlock done using /Users/msartini/.npm/_locks/normalize-package-data-ef942aed52b7fd5c.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data
+839 http 304 https://registry.npmjs.org/wrappy
+840 silly get cb [ 304,
+840 silly get   { date: 'Wed, 24 Dec 2014 17:12:27 GMT',
+840 silly get     server: 'Apache',
+840 silly get     via: '1.1 varnish',
+840 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:27 GMT',
+840 silly get     'cache-control': 'max-age=60',
+840 silly get     etag: '"1RF5P2YZZNRM3V1SS1JQ4SIFO"',
+840 silly get     age: '39',
+840 silly get     'x-served-by': 'cache-atl6223-ATL',
+840 silly get     'x-cache': 'HIT',
+840 silly get     'x-cache-hits': '1',
+840 silly get     'x-timer': 'S1419441147.893799,VS0,VE0',
+840 silly get     vary: 'Accept',
+840 silly get     'content-length': '0',
+840 silly get     'keep-alive': 'timeout=10, max=50',
+840 silly get     connection: 'Keep-Alive' } ]
+841 verbose etag https://registry.npmjs.org/wrappy from cache
+842 silly addNameRange number 2 { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: true }
+843 silly addNameRange versions [ 'wrappy', [ '1.0.0', '1.0.1' ] ]
+844 verbose addNamed wrappy@1.0.1
+845 silly addNamed semver.valid 1.0.1
+846 silly addNamed semver.validRange 1.0.1
+847 silly addNameRange number 2 { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: true }
+848 silly addNameRange versions [ 'wrappy', [ '1.0.0', '1.0.1' ] ]
+849 verbose addNamed wrappy@1.0.1
+850 silly addNamed semver.valid 1.0.1
+851 silly addNamed semver.validRange 1.0.1
+852 silly cache afterAdd wrappy@1.0.1
+853 verbose afterAdd /Users/msartini/.npm/wrappy/1.0.1/package/package.json not in flight; writing
+854 silly cache afterAdd wrappy@1.0.1
+855 verbose afterAdd /Users/msartini/.npm/wrappy/1.0.1/package/package.json already in flight; not writing
+856 verbose afterAdd /Users/msartini/.npm/wrappy/1.0.1/package/package.json written
+857 silly install resolved [ { name: 'wrappy',
+857 silly install resolved     version: '1.0.1',
+857 silly install resolved     description: 'Callback wrapping utility',
+857 silly install resolved     main: 'wrappy.js',
+857 silly install resolved     directories: { test: 'test' },
+857 silly install resolved     dependencies: {},
+857 silly install resolved     devDependencies: { tap: '^0.4.12' },
+857 silly install resolved     scripts: { test: 'tap test/*.js' },
+857 silly install resolved     repository: { type: 'git', url: 'https://github.com/npm/wrappy' },
+857 silly install resolved     author:
+857 silly install resolved      { name: 'Isaac Z. Schlueter',
+857 silly install resolved        email: 'i@izs.me',
+857 silly install resolved        url: 'http://blog.izs.me/' },
+857 silly install resolved     license: 'ISC',
+857 silly install resolved     bugs: { url: 'https://github.com/npm/wrappy/issues' },
+857 silly install resolved     homepage: 'https://github.com/npm/wrappy',
+857 silly install resolved     gitHead: '006a8cbac6b99988315834c207896eed71fd069a',
+857 silly install resolved     _id: 'wrappy@1.0.1',
+857 silly install resolved     _shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+857 silly install resolved     _from: 'wrappy@>=1.0.0 <2.0.0',
+857 silly install resolved     _npmVersion: '2.0.0',
+857 silly install resolved     _nodeVersion: '0.10.31',
+857 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+857 silly install resolved     maintainers: [ [Object] ],
+857 silly install resolved     dist:
+857 silly install resolved      { shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+857 silly install resolved        tarball: 'http://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz' },
+857 silly install resolved     _resolved: 'https://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz',
+857 silly install resolved     readme: 'ERROR: No README data found!' } ]
+858 info install wrappy@1.0.1 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+859 info installOne wrappy@1.0.1
+860 verbose installOne of wrappy to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once not in flight; installing
+861 silly install resolved [ { name: 'wrappy',
+861 silly install resolved     version: '1.0.1',
+861 silly install resolved     description: 'Callback wrapping utility',
+861 silly install resolved     main: 'wrappy.js',
+861 silly install resolved     directories: { test: 'test' },
+861 silly install resolved     dependencies: {},
+861 silly install resolved     devDependencies: { tap: '^0.4.12' },
+861 silly install resolved     scripts: { test: 'tap test/*.js' },
+861 silly install resolved     repository: { type: 'git', url: 'https://github.com/npm/wrappy' },
+861 silly install resolved     author:
+861 silly install resolved      { name: 'Isaac Z. Schlueter',
+861 silly install resolved        email: 'i@izs.me',
+861 silly install resolved        url: 'http://blog.izs.me/' },
+861 silly install resolved     license: 'ISC',
+861 silly install resolved     bugs: { url: 'https://github.com/npm/wrappy/issues' },
+861 silly install resolved     homepage: 'https://github.com/npm/wrappy',
+861 silly install resolved     gitHead: '006a8cbac6b99988315834c207896eed71fd069a',
+861 silly install resolved     _id: 'wrappy@1.0.1',
+861 silly install resolved     _shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+861 silly install resolved     _from: 'wrappy@>=1.0.0 <2.0.0',
+861 silly install resolved     _npmVersion: '2.0.0',
+861 silly install resolved     _nodeVersion: '0.10.31',
+861 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+861 silly install resolved     maintainers: [ [Object] ],
+861 silly install resolved     dist:
+861 silly install resolved      { shasum: '1e65969965ccbc2db4548c6b84a6f2c5aedd4739',
+861 silly install resolved        tarball: 'http://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz' },
+861 silly install resolved     _resolved: 'https://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz',
+861 silly install resolved     readme: 'ERROR: No README data found!' } ]
+862 info install wrappy@1.0.1 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+863 info installOne wrappy@1.0.1
+864 verbose installOne of wrappy to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight not in flight; installing
+865 verbose lock using /Users/msartini/.npm/_locks/wrappy-078d191729f047bf.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+866 verbose lock using /Users/msartini/.npm/_locks/wrappy-c476885ac551def4.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+867 silly install write writing wrappy 1.0.1 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+868 silly install write writing wrappy 1.0.1 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+869 silly cache addNamed cb wrappy@1.0.1
+870 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+871 silly cache addNamed cb wrappy@1.0.1
+872 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+873 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+874 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+875 verbose tar unpack /Users/msartini/.npm/wrappy/1.0.1/package.tgz
+876 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+877 verbose tar unpack /Users/msartini/.npm/wrappy/1.0.1/package.tgz
+878 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+879 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+880 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+881 silly gunzTarPerm modes [ '755', '644' ]
+882 silly gunzTarPerm modes [ '755', '644' ]
+883 silly gunzTarPerm extractEntry package.json
+884 silly gunzTarPerm extractEntry package.json
+885 silly gunzTarPerm extractEntry README.md
+886 silly gunzTarPerm extractEntry LICENSE
+887 silly gunzTarPerm extractEntry README.md
+888 silly gunzTarPerm extractEntry LICENSE
+889 silly gunzTarPerm extractEntry wrappy.js
+890 silly gunzTarPerm extractEntry test/basic.js
+891 silly gunzTarPerm extractEntry wrappy.js
+892 silly gunzTarPerm extractEntry test/basic.js
+893 http 304 https://registry.npmjs.org/brace-expansion
+894 silly get cb [ 304,
+894 silly get   { date: 'Wed, 24 Dec 2014 17:12:27 GMT',
+894 silly get     server: 'Apache',
+894 silly get     via: '1.1 varnish',
+894 silly get     'last-modified': 'Wed, 24 Dec 2014 17:11:59 GMT',
+894 silly get     'cache-control': 'max-age=60',
+894 silly get     etag: '"92DYK38Y5XPPP069JBP83OEYP"',
+894 silly get     age: '50',
+894 silly get     'x-served-by': 'cache-atl6229-ATL',
+894 silly get     'x-cache': 'HIT',
+894 silly get     'x-cache-hits': '3',
+894 silly get     'x-timer': 'S1419441147.914118,VS0,VE0',
+894 silly get     vary: 'Accept',
+894 silly get     'content-length': '0',
+894 silly get     'keep-alive': 'timeout=10, max=50',
+894 silly get     connection: 'Keep-Alive' } ]
+895 verbose etag https://registry.npmjs.org/brace-expansion from cache
+896 silly addNameRange number 2 { name: 'brace-expansion',
+896 silly addNameRange   range: '>=1.0.0 <2.0.0',
+896 silly addNameRange   hasData: true }
+897 silly addNameRange versions [ 'brace-expansion', [ '0.0.0', '1.0.0', '1.0.1', '1.1.0' ] ]
+898 verbose addNamed brace-expansion@1.1.0
+899 silly addNamed semver.valid 1.1.0
+900 silly addNamed semver.validRange 1.1.0
+901 silly cache afterAdd brace-expansion@1.1.0
+902 verbose afterAdd /Users/msartini/.npm/brace-expansion/1.1.0/package/package.json not in flight; writing
+903 verbose afterAdd /Users/msartini/.npm/brace-expansion/1.1.0/package/package.json written
+904 silly install resolved [ { name: 'brace-expansion',
+904 silly install resolved     description: 'Brace expansion as known from sh/bash',
+904 silly install resolved     version: '1.1.0',
+904 silly install resolved     repository:
+904 silly install resolved      { type: 'git',
+904 silly install resolved        url: 'git://github.com/juliangruber/brace-expansion.git' },
+904 silly install resolved     homepage: 'https://github.com/juliangruber/brace-expansion',
+904 silly install resolved     main: 'index.js',
+904 silly install resolved     scripts: { test: 'tape test/*.js', gentest: 'bash test/generate.sh' },
+904 silly install resolved     dependencies: { 'balanced-match': '^0.2.0', 'concat-map': '0.0.1' },
+904 silly install resolved     devDependencies: { tape: '^3.0.3' },
+904 silly install resolved     keywords: [],
+904 silly install resolved     author:
+904 silly install resolved      { name: 'Julian Gruber',
+904 silly install resolved        email: 'mail@juliangruber.com',
+904 silly install resolved        url: 'http://juliangruber.com' },
+904 silly install resolved     license: 'MIT',
+904 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+904 silly install resolved     gitHead: 'b5fa3b1c74e5e2dba2d0efa19b28335641bc1164',
+904 silly install resolved     bugs: { url: 'https://github.com/juliangruber/brace-expansion/issues' },
+904 silly install resolved     _id: 'brace-expansion@1.1.0',
+904 silly install resolved     _shasum: 'c9b7d03c03f37bc704be100e522b40db8f6cfcd9',
+904 silly install resolved     _from: 'brace-expansion@>=1.0.0 <2.0.0',
+904 silly install resolved     _npmVersion: '2.1.10',
+904 silly install resolved     _nodeVersion: '0.10.32',
+904 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+904 silly install resolved     maintainers: [ [Object], [Object] ],
+904 silly install resolved     dist:
+904 silly install resolved      { shasum: 'c9b7d03c03f37bc704be100e522b40db8f6cfcd9',
+904 silly install resolved        tarball: 'http://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz' },
+904 silly install resolved     directories: {},
+904 silly install resolved     _resolved: 'https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz',
+904 silly install resolved     readme: 'ERROR: No README data found!' } ]
+905 info install brace-expansion@1.1.0 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+906 info installOne brace-expansion@1.1.0
+907 verbose installOne of brace-expansion to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch not in flight; installing
+908 info preinstall wrappy@1.0.1
+909 info preinstall wrappy@1.0.1
+910 verbose lock using /Users/msartini/.npm/_locks/brace-expansion-10397cf812c975b0.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+911 silly install write writing brace-expansion 1.1.0 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+912 silly cache addNamed cb brace-expansion@1.1.0
+913 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+914 silly install resolved []
+915 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+916 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+917 silly install resolved []
+918 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+919 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+920 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+921 verbose linkStuff [ false,
+921 verbose linkStuff   false,
+921 verbose linkStuff   false,
+921 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules' ]
+922 info linkStuff wrappy@1.0.1
+923 verbose linkStuff [ false,
+923 verbose linkStuff   false,
+923 verbose linkStuff   false,
+923 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules' ]
+924 info linkStuff wrappy@1.0.1
+925 verbose linkBins wrappy@1.0.1
+926 verbose linkMans wrappy@1.0.1
+927 verbose rebuildBundles wrappy@1.0.1
+928 verbose linkBins wrappy@1.0.1
+929 verbose linkMans wrappy@1.0.1
+930 verbose rebuildBundles wrappy@1.0.1
+931 verbose tar unpack /Users/msartini/.npm/brace-expansion/1.1.0/package.tgz
+932 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+933 info install wrappy@1.0.1
+934 info install wrappy@1.0.1
+935 info postinstall wrappy@1.0.1
+936 info postinstall wrappy@1.0.1
+937 verbose unlock done using /Users/msartini/.npm/_locks/wrappy-078d191729f047bf.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy
+938 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+939 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+940 verbose unlock done using /Users/msartini/.npm/_locks/wrappy-c476885ac551def4.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight/node_modules/wrappy
+941 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+942 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+943 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+944 verbose linkStuff [ false,
+944 verbose linkStuff   false,
+944 verbose linkStuff   false,
+944 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules' ]
+945 info linkStuff once@1.3.1
+946 verbose linkStuff [ false,
+946 verbose linkStuff   false,
+946 verbose linkStuff   false,
+946 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules' ]
+947 info linkStuff inflight@1.0.4
+948 verbose linkBins once@1.3.1
+949 verbose linkMans once@1.3.1
+950 verbose rebuildBundles once@1.3.1
+951 verbose linkBins inflight@1.0.4
+952 verbose linkMans inflight@1.0.4
+953 verbose rebuildBundles inflight@1.0.4
+954 silly gunzTarPerm modes [ '755', '644' ]
+955 verbose rebuildBundles [ 'wrappy' ]
+956 info install once@1.3.1
+957 verbose rebuildBundles [ 'wrappy' ]
+958 info install inflight@1.0.4
+959 info postinstall once@1.3.1
+960 info postinstall inflight@1.0.4
+961 silly gunzTarPerm extractEntry package.json
+962 verbose unlock done using /Users/msartini/.npm/_locks/once-d81411ffb3999182.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once
+963 verbose unlock done using /Users/msartini/.npm/_locks/inflight-c51cbd398606a6fc.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/inflight
+964 silly gunzTarPerm extractEntry .npmignore
+965 silly gunzTarPerm extractEntry README.md
+966 silly gunzTarPerm extractEntry example.js
+967 silly gunzTarPerm extractEntry index.js
+968 silly gunzTarPerm extractEntry .travis.yml
+969 silly gunzTarPerm extractEntry test/bash-comparison.js
+970 silly gunzTarPerm extractEntry test/same-type.js
+971 silly gunzTarPerm extractEntry test/dollar.js
+972 silly gunzTarPerm extractEntry test/empty-option.js
+973 silly gunzTarPerm extractEntry test/pad.js
+974 silly gunzTarPerm extractEntry test/order.js
+975 silly gunzTarPerm extractEntry test/nested.js
+976 silly gunzTarPerm extractEntry test/sequence.js
+977 silly gunzTarPerm extractEntry test/negative-increment.js
+978 silly gunzTarPerm extractEntry test/bash-results.txt
+979 silly gunzTarPerm extractEntry test/generate.sh
+980 silly gunzTarPerm extractEntry test/cases.txt
+981 info preinstall brace-expansion@1.1.0
+982 silly prepareForInstallMany adding balanced-match@^0.2.0 from brace-expansion dependencies
+983 silly prepareForInstallMany adding concat-map@0.0.1 from brace-expansion dependencies
+984 silly cache add args [ 'balanced-match@^0.2.0', null ]
+985 verbose cache add spec balanced-match@^0.2.0
+986 silly cache add args [ 'concat-map@0.0.1', null ]
+987 verbose cache add spec concat-map@0.0.1
+988 silly cache add parsed spec { raw: 'balanced-match@^0.2.0',
+988 silly cache add   scope: null,
+988 silly cache add   name: 'balanced-match',
+988 silly cache add   rawSpec: '^0.2.0',
+988 silly cache add   spec: '>=0.2.0 <0.3.0',
+988 silly cache add   type: 'range' }
+989 verbose addNamed balanced-match@>=0.2.0 <0.3.0
+990 silly addNamed semver.valid null
+991 silly addNamed semver.validRange >=0.2.0 <0.3.0
+992 silly addNameRange { name: 'balanced-match',
+992 silly addNameRange   range: '>=0.2.0 <0.3.0',
+992 silly addNameRange   hasData: false }
+993 silly mapToRegistry name balanced-match
+994 silly mapToRegistry using default registry
+995 silly mapToRegistry registry https://registry.npmjs.org/
+996 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+997 verbose addNameRange registry:https://registry.npmjs.org/balanced-match not in flight; fetching
+998 silly cache add parsed spec { raw: 'concat-map@0.0.1',
+998 silly cache add   scope: null,
+998 silly cache add   name: 'concat-map',
+998 silly cache add   rawSpec: '0.0.1',
+998 silly cache add   spec: '0.0.1',
+998 silly cache add   type: 'version' }
+999 verbose addNamed concat-map@0.0.1
+1000 silly addNamed semver.valid 0.0.1
+1001 silly addNamed semver.validRange 0.0.1
+1002 silly mapToRegistry name concat-map
+1003 silly mapToRegistry using default registry
+1004 silly mapToRegistry registry https://registry.npmjs.org/
+1005 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+1006 verbose addNameVersion registry:https://registry.npmjs.org/concat-map not in flight; fetching
+1007 verbose request uri https://registry.npmjs.org/balanced-match
+1008 verbose request no auth needed
+1009 info attempt registry request try #1 at 15:12:28
+1010 verbose etag "BYJ4XSIMZ8RSQ26GNLWYN31XR"
+1011 http request GET https://registry.npmjs.org/balanced-match
+1012 verbose request uri https://registry.npmjs.org/concat-map
+1013 verbose request no auth needed
+1014 info attempt registry request try #1 at 15:12:28
+1015 verbose etag "BLI084F7X81AXZ0EUO72Q7QIG"
+1016 http request GET https://registry.npmjs.org/concat-map
+1017 http 304 https://registry.npmjs.org/concat-map
+1018 silly get cb [ 304,
+1018 silly get   { date: 'Wed, 24 Dec 2014 17:12:28 GMT',
+1018 silly get     server: 'Apache',
+1018 silly get     via: '1.1 varnish',
+1018 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:00 GMT',
+1018 silly get     'cache-control': 'max-age=60',
+1018 silly get     etag: '"BLI084F7X81AXZ0EUO72Q7QIG"',
+1018 silly get     age: '28',
+1018 silly get     'x-served-by': 'cache-atl6221-ATL',
+1018 silly get     'x-cache': 'HIT',
+1018 silly get     'x-cache-hits': '3',
+1018 silly get     'x-timer': 'S1419441148.634846,VS0,VE0',
+1018 silly get     vary: 'Accept',
+1018 silly get     'content-length': '0',
+1018 silly get     'keep-alive': 'timeout=10, max=50',
+1018 silly get     connection: 'Keep-Alive' } ]
+1019 verbose etag https://registry.npmjs.org/concat-map from cache
+1020 silly cache afterAdd concat-map@0.0.1
+1021 verbose afterAdd /Users/msartini/.npm/concat-map/0.0.1/package/package.json not in flight; writing
+1022 verbose afterAdd /Users/msartini/.npm/concat-map/0.0.1/package/package.json written
+1023 http 304 https://registry.npmjs.org/balanced-match
+1024 silly get cb [ 304,
+1024 silly get   { date: 'Wed, 24 Dec 2014 17:12:28 GMT',
+1024 silly get     server: 'Apache',
+1024 silly get     via: '1.1 varnish',
+1024 silly get     'last-modified': 'Wed, 24 Dec 2014 17:12:07 GMT',
+1024 silly get     'cache-control': 'max-age=60',
+1024 silly get     etag: '"BYJ4XSIMZ8RSQ26GNLWYN31XR"',
+1024 silly get     age: '21',
+1024 silly get     'x-served-by': 'cache-atl6235-ATL',
+1024 silly get     'x-cache': 'HIT',
+1024 silly get     'x-cache-hits': '3',
+1024 silly get     'x-timer': 'S1419441148.664029,VS0,VE0',
+1024 silly get     vary: 'Accept',
+1024 silly get     'content-length': '0',
+1024 silly get     'keep-alive': 'timeout=10, max=50',
+1024 silly get     connection: 'Keep-Alive' } ]
+1025 verbose etag https://registry.npmjs.org/balanced-match from cache
+1026 silly addNameRange number 2 { name: 'balanced-match',
+1026 silly addNameRange   range: '>=0.2.0 <0.3.0',
+1026 silly addNameRange   hasData: true }
+1027 silly addNameRange versions [ 'balanced-match', [ '0.0.0', '0.0.1', '0.1.0', '0.2.0' ] ]
+1028 verbose addNamed balanced-match@0.2.0
+1029 silly addNamed semver.valid 0.2.0
+1030 silly addNamed semver.validRange 0.2.0
+1031 silly cache afterAdd balanced-match@0.2.0
+1032 verbose afterAdd /Users/msartini/.npm/balanced-match/0.2.0/package/package.json not in flight; writing
+1033 verbose afterAdd /Users/msartini/.npm/balanced-match/0.2.0/package/package.json written
+1034 silly install resolved [ { name: 'concat-map',
+1034 silly install resolved     description: 'concatenative mapdashery',
+1034 silly install resolved     version: '0.0.1',
+1034 silly install resolved     repository:
+1034 silly install resolved      { type: 'git',
+1034 silly install resolved        url: 'git://github.com/substack/node-concat-map.git' },
+1034 silly install resolved     main: 'index.js',
+1034 silly install resolved     keywords: [ 'concat', 'concatMap', 'map', 'functional', 'higher-order' ],
+1034 silly install resolved     directories: { example: 'example', test: 'test' },
+1034 silly install resolved     scripts: { test: 'tape test/*.js' },
+1034 silly install resolved     devDependencies: { tape: '~2.4.0' },
+1034 silly install resolved     license: 'MIT',
+1034 silly install resolved     author:
+1034 silly install resolved      { name: 'James Halliday',
+1034 silly install resolved        email: 'mail@substack.net',
+1034 silly install resolved        url: 'http://substack.net' },
+1034 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+1034 silly install resolved     bugs: { url: 'https://github.com/substack/node-concat-map/issues' },
+1034 silly install resolved     homepage: 'https://github.com/substack/node-concat-map',
+1034 silly install resolved     _id: 'concat-map@0.0.1',
+1034 silly install resolved     dist:
+1034 silly install resolved      { shasum: 'd8a96bd77fd68df7793a73036a3ba0d5405d477b',
+1034 silly install resolved        tarball: 'http://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz' },
+1034 silly install resolved     _from: 'concat-map@0.0.1',
+1034 silly install resolved     _npmVersion: '1.3.21',
+1034 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+1034 silly install resolved     maintainers: [ [Object] ],
+1034 silly install resolved     _shasum: 'd8a96bd77fd68df7793a73036a3ba0d5405d477b',
+1034 silly install resolved     _resolved: 'https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz',
+1034 silly install resolved     readme: 'ERROR: No README data found!' },
+1034 silly install resolved   { name: 'balanced-match',
+1034 silly install resolved     description: 'Match balanced character pairs, like "{" and "}"',
+1034 silly install resolved     version: '0.2.0',
+1034 silly install resolved     repository:
+1034 silly install resolved      { type: 'git',
+1034 silly install resolved        url: 'git://github.com/juliangruber/balanced-match.git' },
+1034 silly install resolved     homepage: 'https://github.com/juliangruber/balanced-match',
+1034 silly install resolved     main: 'index.js',
+1034 silly install resolved     scripts: { test: 'make test' },
+1034 silly install resolved     dependencies: {},
+1034 silly install resolved     devDependencies: { tape: '~1.1.1' },
+1034 silly install resolved     keywords: [ 'match', 'regexp', 'test', 'balanced', 'parse' ],
+1034 silly install resolved     author:
+1034 silly install resolved      { name: 'Julian Gruber',
+1034 silly install resolved        email: 'mail@juliangruber.com',
+1034 silly install resolved        url: 'http://juliangruber.com' },
+1034 silly install resolved     license: 'MIT',
+1034 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+1034 silly install resolved     gitHead: 'ba40ed78e7114a4a67c51da768a100184dead39c',
+1034 silly install resolved     bugs: { url: 'https://github.com/juliangruber/balanced-match/issues' },
+1034 silly install resolved     _id: 'balanced-match@0.2.0',
+1034 silly install resolved     _shasum: '38f6730c03aab6d5edbb52bd934885e756d71674',
+1034 silly install resolved     _from: 'balanced-match@>=0.2.0 <0.3.0',
+1034 silly install resolved     _npmVersion: '2.1.8',
+1034 silly install resolved     _nodeVersion: '0.10.32',
+1034 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+1034 silly install resolved     maintainers: [ [Object] ],
+1034 silly install resolved     dist:
+1034 silly install resolved      { shasum: '38f6730c03aab6d5edbb52bd934885e756d71674',
+1034 silly install resolved        tarball: 'http://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz' },
+1034 silly install resolved     directories: {},
+1034 silly install resolved     _resolved: 'https://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz',
+1034 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1035 info install concat-map@0.0.1 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1036 info install balanced-match@0.2.0 into /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1037 info installOne concat-map@0.0.1
+1038 verbose installOne of concat-map to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion not in flight; installing
+1039 info installOne balanced-match@0.2.0
+1040 verbose installOne of balanced-match to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion not in flight; installing
+1041 verbose lock using /Users/msartini/.npm/_locks/concat-map-c03fdb4ff35b84ab.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1042 silly install write writing concat-map 0.0.1 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1043 verbose lock using /Users/msartini/.npm/_locks/balanced-match-5ccfdcf5b173e0d1.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1044 silly cache addNamed cb concat-map@0.0.1
+1045 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1046 silly install write writing balanced-match 0.2.0 to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1047 silly cache addNamed cb balanced-match@0.2.0
+1048 verbose unbuild node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1049 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1050 verbose tar unpack /Users/msartini/.npm/concat-map/0.0.1/package.tgz
+1051 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1052 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1053 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1054 verbose tar unpack /Users/msartini/.npm/balanced-match/0.2.0/package.tgz
+1055 verbose tar unpacking to /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1056 silly gunzTarPerm modes [ '755', '644' ]
+1057 verbose gentlyRm vacuuming /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1058 silly gunzTarPerm extractEntry package.json
+1059 silly gunzTarPerm modes [ '755', '644' ]
+1060 silly gunzTarPerm extractEntry LICENSE
+1061 silly gunzTarPerm extractEntry index.js
+1062 silly gunzTarPerm extractEntry package.json
+1063 silly gunzTarPerm extractEntry .npmignore
+1064 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+1065 silly gunzTarPerm extractEntry README.md
+1066 silly gunzTarPerm extractEntry .travis.yml
+1067 silly gunzTarPerm extractEntry README.markdown
+1068 silly gunzTarPerm extractEntry example.js
+1069 silly gunzTarPerm modified mode [ 'example.js', 436, 420 ]
+1070 silly gunzTarPerm extractEntry index.js
+1071 silly gunzTarPerm extractEntry example/map.js
+1072 silly gunzTarPerm extractEntry test/map.js
+1073 silly gunzTarPerm extractEntry .travis.yml
+1074 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+1075 silly gunzTarPerm extractEntry Makefile
+1076 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+1077 silly gunzTarPerm extractEntry test/balanced.js
+1078 info preinstall concat-map@0.0.1
+1079 silly install resolved []
+1080 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1081 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1082 verbose linkStuff [ false,
+1082 verbose linkStuff   false,
+1082 verbose linkStuff   false,
+1082 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules' ]
+1083 info linkStuff concat-map@0.0.1
+1084 verbose linkBins concat-map@0.0.1
+1085 verbose linkMans concat-map@0.0.1
+1086 verbose rebuildBundles concat-map@0.0.1
+1087 info install concat-map@0.0.1
+1088 info postinstall concat-map@0.0.1
+1089 verbose unlock done using /Users/msartini/.npm/_locks/concat-map-c03fdb4ff35b84ab.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map
+1090 info preinstall balanced-match@0.2.0
+1091 silly install resolved []
+1092 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1093 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1094 verbose linkStuff [ false,
+1094 verbose linkStuff   false,
+1094 verbose linkStuff   false,
+1094 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules' ]
+1095 info linkStuff balanced-match@0.2.0
+1096 verbose linkBins balanced-match@0.2.0
+1097 verbose linkMans balanced-match@0.2.0
+1098 verbose rebuildBundles balanced-match@0.2.0
+1099 info install balanced-match@0.2.0
+1100 info postinstall balanced-match@0.2.0
+1101 verbose unlock done using /Users/msartini/.npm/_locks/balanced-match-5ccfdcf5b173e0d1.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match
+1102 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1103 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1104 verbose linkStuff [ false,
+1104 verbose linkStuff   false,
+1104 verbose linkStuff   false,
+1104 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules' ]
+1105 info linkStuff brace-expansion@1.1.0
+1106 verbose linkBins brace-expansion@1.1.0
+1107 verbose linkMans brace-expansion@1.1.0
+1108 verbose rebuildBundles brace-expansion@1.1.0
+1109 verbose rebuildBundles [ 'balanced-match', 'concat-map' ]
+1110 info install brace-expansion@1.1.0
+1111 info postinstall brace-expansion@1.1.0
+1112 verbose unlock done using /Users/msartini/.npm/_locks/brace-expansion-10397cf812c975b0.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion
+1113 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+1114 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+1115 verbose linkStuff [ false,
+1115 verbose linkStuff   false,
+1115 verbose linkStuff   false,
+1115 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules' ]
+1116 info linkStuff minimatch@2.0.1
+1117 verbose linkBins minimatch@2.0.1
+1118 verbose linkMans minimatch@2.0.1
+1119 verbose rebuildBundles minimatch@2.0.1
+1120 verbose rebuildBundles [ 'brace-expansion' ]
+1121 info install minimatch@2.0.1
+1122 info postinstall minimatch@2.0.1
+1123 verbose unlock done using /Users/msartini/.npm/_locks/minimatch-82081f82a4f70ddb.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch
+1124 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+1125 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+1126 verbose linkStuff [ false,
+1126 verbose linkStuff   false,
+1126 verbose linkStuff   false,
+1126 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules' ]
+1127 info linkStuff glob@4.3.2
+1128 verbose linkBins glob@4.3.2
+1129 verbose linkMans glob@4.3.2
+1130 verbose rebuildBundles glob@4.3.2
+1131 verbose rebuildBundles [ 'inflight', 'inherits', 'minimatch', 'once' ]
+1132 info install glob@4.3.2
+1133 info postinstall glob@4.3.2
+1134 verbose unlock done using /Users/msartini/.npm/_locks/glob-a68eeb249e61992c.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob
+1135 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+1136 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+1137 verbose linkStuff [ false,
+1137 verbose linkStuff   false,
+1137 verbose linkStuff   false,
+1137 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules' ]
+1138 info linkStuff read-package-json@1.2.7
+1139 verbose linkBins read-package-json@1.2.7
+1140 verbose linkMans read-package-json@1.2.7
+1141 verbose rebuildBundles read-package-json@1.2.7
+1142 verbose rebuildBundles [ 'github-url-from-git',
+1142 verbose rebuildBundles   'github-url-from-username-repo',
+1142 verbose rebuildBundles   'glob',
+1142 verbose rebuildBundles   'graceful-fs',
+1142 verbose rebuildBundles   'lru-cache',
+1142 verbose rebuildBundles   'normalize-package-data' ]
+1143 info install read-package-json@1.2.7
+1144 info postinstall read-package-json@1.2.7
+1145 verbose unlock done using /Users/msartini/.npm/_locks/read-package-json-5e70f1d930623110.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal/node_modules/read-package-json
+1146 verbose about to build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+1147 info build /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+1148 verbose linkStuff [ false,
+1148 verbose linkStuff   false,
+1148 verbose linkStuff   false,
+1148 verbose linkStuff   '/Users/msartini/wsjava/springmaven/grunt/node_modules' ]
+1149 info linkStuff grunt-contrib-internal@0.4.12
+1150 verbose linkBins grunt-contrib-internal@0.4.12
+1151 verbose linkMans grunt-contrib-internal@0.4.12
+1152 verbose rebuildBundles grunt-contrib-internal@0.4.12
+1153 verbose rebuildBundles [ 'read-package-json' ]
+1154 info install grunt-contrib-internal@0.4.12
+1155 info postinstall grunt-contrib-internal@0.4.12
+1156 verbose already installed skipping grunt@~0.4.5 /Users/msartini/wsjava/springmaven/grunt
+1157 silly install resolved []
+1158 verbose unlock done using /Users/msartini/.npm/_locks/grunt-contrib-internal-6c22d433228c5ec7.lock for /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-contrib-internal
+1159 warn unmet dependency /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-coffee/node_modules/grunt requires colors@'~0.6.0' but will load
+1159 warn unmet dependency /Users/msartini/wsjava/springmaven/grunt/node_modules/colors,
+1159 warn unmet dependency which is version 0.6.0-1
+1160 warn unmet dependency /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-coffee/node_modules/grunt/node_modules/prompt requires colors@'0.x.x' but will load
+1160 warn unmet dependency /Users/msartini/wsjava/springmaven/grunt/node_modules/colors,
+1160 warn unmet dependency which is version 0.6.0-1
+1161 warn unmet dependency /Users/msartini/wsjava/springmaven/grunt/node_modules/grunt-coffee/node_modules/grunt/node_modules/prompt/node_modules/winston requires colors@'0.x.x' but will load
+1161 warn unmet dependency /Users/msartini/wsjava/springmaven/grunt/node_modules/colors,
+1161 warn unmet dependency which is version 0.6.0-1
+1162 verbose stack Error: The package grunt does not satisfy its siblings' peerDependencies requirements!
+1162 verbose stack     at /opt/local/lib/node_modules/npm/lib/install.js:103:32
+1162 verbose stack     at /opt/local/lib/node_modules/npm/lib/install.js:225:5
+1162 verbose stack     at /opt/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+1162 verbose stack     at /opt/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1162 verbose stack     at cb (/opt/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1162 verbose stack     at /opt/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1162 verbose stack     at cb (/opt/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1162 verbose stack     at /opt/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1162 verbose stack     at cb (/opt/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1162 verbose stack     at /opt/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1163 verbose cwd /Users/msartini/wsjava/springmaven/grunt
+1164 error Darwin 14.0.0
+1165 error argv "node" "/opt/local/bin/npm" "install" "--save-dev" "grunt-contrib-internal"
+1166 error node v0.8.16
+1167 error npm  v2.1.14
+1168 error code EPEERINVALID
+1169 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+1169 error peerinvalid Peer grunt-compass-compiler@0.0.8 wants grunt@~0.4.0
+1169 error peerinvalid Peer grunt-contrib-clean@0.6.0 wants grunt@~0.4.0
+1169 error peerinvalid Peer grunt-contrib-coffee@0.6.6 wants grunt@~0.4.0
+1169 error peerinvalid Peer grunt-contrib-less@0.5.1 wants grunt@~0.4.0
+1169 error peerinvalid Peer grunt-contrib-watch@0.2.0 wants grunt@~0.4.0
+1169 error peerinvalid Peer grunt-contrib-jshint@0.1.1 wants grunt@~0.4.0
+1169 error peerinvalid Peer grunt-contrib-sass@0.8.1 wants grunt@>=0.4.0
+1169 error peerinvalid Peer grunt-contrib-compass@1.0.1 wants grunt@>=0.4.0
+1169 error peerinvalid Peer grunt-contrib-internal@0.4.12 wants grunt@~0.4.5
+1169 error peerinvalid Peer grunt-contrib-nodeunit@0.1.2 wants grunt@~0.4.0
+1170 verbose exit [ 1, true ]

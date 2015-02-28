@@ -1,0 +1,14 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333555; }
+
+div {
+  color: #333555; }
+
+ul li {
+  font-size: 12px; }
+
+.page-home {
+  color: #cccccc; }
+  .page-home ul li {
+    list-style-type: none; }
