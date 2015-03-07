@@ -45,6 +45,8 @@ public class AdicionaUsuarioComNomeTest {
 		findUser.setNome("Marcio de Souza");
 		repository.save(findUser);
 		
+		findUser.mostra();
+		
 		 
 		
 		

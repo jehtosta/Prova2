@@ -11,6 +11,8 @@
 	
 	<form name="frmUsuario" action="adicionaUsuario" method="POST">
 		Nome: <input type="text" name="nome"  value="${usuario.nome}" /><br />
+		
+		 é    <span>${keyParam}</span>
 		<button name="brnEnviar">Enviar</button>
 
 	</form>
