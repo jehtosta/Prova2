@@ -47,10 +47,5 @@ public class AdicionaUsuarioComNomeTest {
 		
 		findUser.mostra();
 		
-		 
-		
-		
-		 
-		
 	}
 }
