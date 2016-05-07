@@ -65,6 +65,7 @@ public class BaseController  {
 		Usuario findUser = repository.findOne(usercodigo);
 		
 		Post post = new Post(); 
+		post.setPostId(usercodigo);
 		post.setTitle("Incluindo novo post" + findUser.getNome() + usercodigo);
 		return post;
 		
