@@ -24,7 +24,7 @@ public class BaseController  {
 	UsuarioRepository repository;
 	
 	
-	@RequestMapping(value="/welcome", method = RequestMethod.GET)
+	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String welcome(ModelMap model) {
  
 		model.addAttribute("message", "Maven Web Project  + Spring 3 MVC - welcome()");
@@ -32,19 +32,24 @@ public class BaseController  {
 		Post post = new Post();
 		post.setTitle("Novo Post");
 		
-	    
 		model.addAttribute("post", post);
-		 
-		  
+		model.addAttribute("thirdBlock", "Bloco 3");
+		
 		//Spring uses InternalResourceViewResolver and return back index.jsp
+
 		return "index";
- 
 	}
  
-	@RequestMapping(value="/welcome/{name}", method = RequestMethod.GET)
-	public String welcomeName(@PathVariable String name, ModelMap model) {
+	@RequestMapping(value="/welcome/{name}/{lastname}", method = RequestMethod.GET)
+	public String welcomeName(
+			@PathVariable String name,
+			@PathVariable String lastname,
+			ModelMap model
+			) {
  
-		model.addAttribute("message", "Maven Web Project + Spring   3 MVC - " + name);
+		String fullname = name + ' ' + lastname;
+		model.addAttribute("message", "Maven Web Project + Spring   3 MVC - " + fullname);
+		model.addAttribute("thirdBlock", "Bloco 3");
 		
 		Post post = new Post();
 		post.setTitle("Incluindo novo post");
@@ -61,33 +66,28 @@ public class BaseController  {
 	@RequestMapping(value="/clientes/{id}", method = RequestMethod.GET)
 	public @ResponseBody Post getCliente(@PathVariable("id") int usercodigo) {
 		
-	
 		Usuario findUser = repository.findOne(usercodigo);
 		
 		Post post = new Post(); 
 		post.setPostId(usercodigo);
 		post.setTitle("Incluindo novo post" + findUser.getNome() + usercodigo);
+
 		return post;
-		
- 
 	}
 	
 	@RequestMapping(value="/clientes/listagem", method = RequestMethod.GET)
 	public @ResponseBody List <Usuario> listaClientes() {
 	
 		List<Usuario> lista = repository.findAll();
+
 		return lista;
- 
 	}
 	
 	@RequestMapping(value="/clientes/lastwith", method = RequestMethod.GET)
 	public @ResponseBody List <Usuario> listaClientesNane() {
 	
 		List<Usuario> lista = repository.findByFirstnameEndsWith("o");
+
 		return lista;
- 
 	}
-	
-	
- 
 }
